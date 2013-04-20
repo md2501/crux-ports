@@ -35,11 +35,11 @@ f:2453e037f46449774ec8afab49b4f1a2:dwm/config.h
 f:f2feb14f5a78f43f8f496e20ad4e638d:dwm/.md5sum
 f:a71b50bb2c7c2a7158e7ca62f637542f:dwm/README
 f:4978ab77a206262b890100d8288ae141:dwm/.footprint
-f:cf5c763bb5521b7c38bb811c4af87cff:kwakd/Pkgfile
+f:d76e35b67045918dde368799c1ea3f46:kwakd/Pkgfile
 f:1607c50a32b41f7586f55755a5bc56f9:kwakd/.md5sum
 f:e1ce068ebc3dee200f27fac6a413f7c7:kwakd/kwakd
 f:1bfe2443285cd4e56ee72d803eb3756c:kwakd/.footprint
-f:3914a4c75a55f90a23737cd598c399d2:xsel/Pkgfile
+f:3795a243c31fbe6c6dff2d62157e6a56:xsel/Pkgfile
 f:874f8edd12d51fd6dece83a0834e4728:xsel/.md5sum
 f:adfffe286d0f1dbbe507addbd39c1970:xsel/.footprint
 f:63bde31445d9b71c1bf5fd14a6c43eac:hsetroot/Pkgfile
@@ -60,7 +60,7 @@ f:9a8036e3b0dbed487f751ee7ba28f484:pmount/Pkgfile
 f:5b223bce1fb262bbb98c541725f5e985:pmount/fix-pmount-segfault.diff
 f:a4aa251a13e9354a5e52d130edb4a2f2:pmount/.md5sum
 f:91ab8dd37b2a399973d34cafd870f96c:pmount/.footprint
-f:61a1953f6f8c6e3eaae76df976dc0d47:st/Pkgfile
+f:af59c7d2bdf673eaeb72eb264cf4004e:st/Pkgfile
 f:064452f1bc460ad9199c045a76d3710a:st/config.h
 f:5ba11c465e55375a47f2aab914d99a4b:st/.md5sum
 f:1e4599ab41026be1bf6a4512605aa5ef:st/README
