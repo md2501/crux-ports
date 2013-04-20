@@ -6,6 +6,7 @@ d:xsel
 d:hsetroot
 d:cd-discid
 d:pmount
+d:st
 f:427f597d9a3728debe6ad0de98c47ecb:hostsblock/Pkgfile
 f:3b9c5aef58a52b10d7d50990fb854afe:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
@@ -14,6 +15,7 @@ f:479582647050fcd44102c3a7c31192e1:hostsblock/.footprint
 f:00d337cb688749d67597ca6f03c90017:sxiv/Pkgfile
 f:53729e7dfba3c12b26fc8359d56523a2:sxiv/config.h
 f:19719bba4f18350812145cbe1a5ddf49:sxiv/.md5sum
+f:59af688d1e94ca5daaa6823730c20222:sxiv/README
 f:c096a425d401a197c1f5d96f685e0cb0:sxiv/.footprint
 f:6409c21712e33a50f621ddee2114e989:sxiv/sxiv-1.1-giflib5.diff
 f:2dff43377a5501aa5184f69b9067daf0:abcde/Pkgfile
@@ -36,3 +38,8 @@ f:9a8036e3b0dbed487f751ee7ba28f484:pmount/Pkgfile
 f:5b223bce1fb262bbb98c541725f5e985:pmount/fix-pmount-segfault.diff
 f:a4aa251a13e9354a5e52d130edb4a2f2:pmount/.md5sum
 f:91ab8dd37b2a399973d34cafd870f96c:pmount/.footprint
+f:61a1953f6f8c6e3eaae76df976dc0d47:st/Pkgfile
+f:064452f1bc460ad9199c045a76d3710a:st/config.h
+f:5ba11c465e55375a47f2aab914d99a4b:st/.md5sum
+f:1e4599ab41026be1bf6a4512605aa5ef:st/README
+f:388dbab9299b75ab51e07bcdb615e798:st/.footprint
