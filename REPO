@@ -32,7 +32,7 @@ f:d64797667b8f07a033863f005796ba42:hsetroot/.footprint
 f:edade937dd4d3ed0b09e7666a07963e0:cd-discid/Pkgfile
 f:fc461f8392324711c4411371d3040b66:cd-discid/.md5sum
 f:ee0e399e784beda4e3bf657b9b564d53:cd-discid/.footprint
-f:2e435d8a37f07cb0e2a5592864da8b4d:pmount/Pkgfile
+f:9a8036e3b0dbed487f751ee7ba28f484:pmount/Pkgfile
 f:5b223bce1fb262bbb98c541725f5e985:pmount/fix-pmount-segfault.diff
 f:a4aa251a13e9354a5e52d130edb4a2f2:pmount/.md5sum
-f:11d02c26bc0d5cc64cc0a7b2e7991dc4:pmount/.footprint
+f:91ab8dd37b2a399973d34cafd870f96c:pmount/.footprint
