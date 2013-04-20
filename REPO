@@ -6,7 +6,6 @@ d:xsel
 d:hsetroot
 d:cd-discid
 d:pmount
-f:3e364eefdf855861b583147f67072439:README.md
 f:427f597d9a3728debe6ad0de98c47ecb:hostsblock/Pkgfile
 f:3b9c5aef58a52b10d7d50990fb854afe:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
