@@ -7,11 +7,7 @@
 name=pmount
 version=0.9.23
 release=1
-source=(
-  https://alioth.debian.org/frs/download.php/3310/${name}-${version}.tar.bz2
-  'http://anonscm.debian.org/gitweb/?p=pmount/pmount-debian.git;a=blob_plain;f=debian/completion/pmount'
-  https://alioth.debian.org/tracker/download.php/31157/412979/313576/4753/fix-pmount-segfault.diff
-)
+source=(https://alioth.debian.org/frs/download.php/3310/${name}-${version}.tar.bz2 https://alioth.debian.org/tracker/download.php/31157/412979/313576/4753/fix-pmount-segfault.diff)
 
 build() {
   export CFLAGS="${CFLAGS} -fPIE -pie"
