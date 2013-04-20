@@ -1,0 +1,19 @@
+# Description: dynamic window manager
+# URL:         http://dwm.suckless.org/
+# Maintainer:  doom, dm <at> archlinux <dot> info
+# Depends on:  xorg-libx11 xorg-libxinerama
+
+name=dwm
+version=6.0
+release=1
+source=(http://dl.suckless.org/dwm/$name-$version.tar.gz config.h)
+
+build () {
+    cd "$name-$version"
+    cp $SRC/config.h .
+    make
+    make DESTDIR=$PKG \
+        PREFIX=/usr \
+        MANPREFIX=/usr/man \
+        install
+}

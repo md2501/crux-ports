@@ -2,6 +2,7 @@ d:hostsblock
 d:sxiv
 d:surf
 d:abcde
+d:dwm
 d:kwakd
 d:xsel
 d:hsetroot
@@ -27,6 +28,11 @@ f:682f010df00b95096920eaf979a03c66:surf/.footprint
 f:2dff43377a5501aa5184f69b9067daf0:abcde/Pkgfile
 f:f8fc81b165dd5da6ecd982625cb92c7c:abcde/.md5sum
 f:59d7137f24afdd0cf95ae13b2270bb4a:abcde/.footprint
+f:619bc4b170ea24c44f6ee27d3d5afa23:dwm/Pkgfile
+f:2453e037f46449774ec8afab49b4f1a2:dwm/config.h
+f:f2feb14f5a78f43f8f496e20ad4e638d:dwm/.md5sum
+f:a71b50bb2c7c2a7158e7ca62f637542f:dwm/README
+f:4978ab77a206262b890100d8288ae141:dwm/.footprint
 f:cf5c763bb5521b7c38bb811c4af87cff:kwakd/Pkgfile
 f:1607c50a32b41f7586f55755a5bc56f9:kwakd/.md5sum
 f:e1ce068ebc3dee200f27fac6a413f7c7:kwakd/kwakd
