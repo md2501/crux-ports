@@ -10,7 +10,7 @@ source=(http://dl.suckless.org/surf/$name-$version.tar.gz config.h)
 
 build () {
     cd "$name-$version"
-    cp ../config.h .
+    cp $SRC/config.h .
     make
     make DESTDIR=$PKG \
         PREFIX=/usr \
