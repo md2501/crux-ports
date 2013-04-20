@@ -7,6 +7,7 @@ d:kwakd
 d:xsel
 d:hsetroot
 d:cd-discid
+d:tabbed
 d:pmount
 d:st
 f:427f597d9a3728debe6ad0de98c47ecb:hostsblock/Pkgfile
@@ -20,7 +21,7 @@ f:19719bba4f18350812145cbe1a5ddf49:sxiv/.md5sum
 f:59af688d1e94ca5daaa6823730c20222:sxiv/README
 f:c096a425d401a197c1f5d96f685e0cb0:sxiv/.footprint
 f:6409c21712e33a50f621ddee2114e989:sxiv/sxiv-1.1-giflib5.diff
-f:56a09f9779f0d130e718aa9725135767:surf/Pkgfile
+f:1efe253a2f2d98cc77f4f857c4bec186:surf/Pkgfile
 f:15c2c911658e2e6085e4c4fa7a7b01c1:surf/config.h
 f:50ece536fbd2bad37348cee1a3b88b8b:surf/.md5sum
 f:ce36eb80c657c519d3eaf37d9d451e79:surf/README
@@ -46,6 +47,11 @@ f:d64797667b8f07a033863f005796ba42:hsetroot/.footprint
 f:edade937dd4d3ed0b09e7666a07963e0:cd-discid/Pkgfile
 f:fc461f8392324711c4411371d3040b66:cd-discid/.md5sum
 f:ee0e399e784beda4e3bf657b9b564d53:cd-discid/.footprint
+f:d009b6a4066051cb6d210a11927ba809:tabbed/Pkgfile
+f:a012a568f1c6123ed064c74c293b136e:tabbed/config.h
+f:845940e6d75861ea5d6f65fd9c4652b2:tabbed/.md5sum
+f:883f9b9bf4c2a4a2c7de246a30b6f60b:tabbed/README
+f:c69833a56c10104a61fc4e46aeaa3d3b:tabbed/.footprint
 f:9a8036e3b0dbed487f751ee7ba28f484:pmount/Pkgfile
 f:5b223bce1fb262bbb98c541725f5e985:pmount/fix-pmount-segfault.diff
 f:a4aa251a13e9354a5e52d130edb4a2f2:pmount/.md5sum
