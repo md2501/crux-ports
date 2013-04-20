@@ -15,6 +15,4 @@ build() {
   ./configure --prefix=/usr --datarootdir=/usr
   make
   make DESTDIR=$PKG install
-  mkdir -p $PKG/usr/share/licenses/xsel/
-  install -D -m0644 COPYING $PKG/usr/share/licenses/xsel/COPYING
 }
