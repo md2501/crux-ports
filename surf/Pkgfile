@@ -1,0 +1,19 @@
+# Description: simple web-browser
+# URL:         http://surf.suckless.org/
+# Maintainer:  doom, dm <at> archlinux <dot> info
+# Depends on:  webkit dmenu curl xorg-xprop xterm ca-certificates
+
+name=surf
+version=0.6
+release=1
+source=(http://dl.suckless.org/surf/$name-$version.tar.gz config.h)
+
+build () {
+    cd "$name-$version"
+    cp ../config.h .
+    make
+    make DESTDIR=$PKG \
+        PREFIX=/usr \
+        MANPREFIX=/usr/man \
+        install
+}

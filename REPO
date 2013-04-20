@@ -1,5 +1,6 @@
 d:hostsblock
 d:sxiv
+d:surf
 d:abcde
 d:kwakd
 d:xsel
@@ -18,6 +19,11 @@ f:19719bba4f18350812145cbe1a5ddf49:sxiv/.md5sum
 f:59af688d1e94ca5daaa6823730c20222:sxiv/README
 f:c096a425d401a197c1f5d96f685e0cb0:sxiv/.footprint
 f:6409c21712e33a50f621ddee2114e989:sxiv/sxiv-1.1-giflib5.diff
+f:56a09f9779f0d130e718aa9725135767:surf/Pkgfile
+f:15c2c911658e2e6085e4c4fa7a7b01c1:surf/config.h
+f:50ece536fbd2bad37348cee1a3b88b8b:surf/.md5sum
+f:ce36eb80c657c519d3eaf37d9d451e79:surf/README
+f:682f010df00b95096920eaf979a03c66:surf/.footprint
 f:2dff43377a5501aa5184f69b9067daf0:abcde/Pkgfile
 f:f8fc81b165dd5da6ecd982625cb92c7c:abcde/.md5sum
 f:59d7137f24afdd0cf95ae13b2270bb4a:abcde/.footprint
