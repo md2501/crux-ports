@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/hostsblock/
+-rw-r--r--	root/root	etc/hostsblock/black.list
+-rw-r--r--	root/root	etc/hostsblock/hosts.head
+-rw-r--r--	root/root	etc/hostsblock/rc.conf
+-rw-r--r--	root/root	etc/hostsblock/white.list
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/sbin/
+-rwxr-xr-x	root/root	usr/sbin/hostsblock
+-rwxr-xr-x	root/root	usr/sbin/hostsblock-urlcheck

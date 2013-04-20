@@ -1,0 +1,10 @@
+drwxr-xr-x	doom/doom	usr/
+drwxr-xr-x	doom/doom	usr/bin/
+-rwxr-xr-x	doom/doom	usr/bin/sxiv
+drwxr-xr-x	doom/doom	usr/man/
+drwxr-xr-x	doom/doom	usr/man/man1/
+-rw-r--r--	doom/doom	usr/man/man1/sxiv.1.gz
+drwxr-xr-x	doom/doom	usr/share/
+drwxr-xr-x	doom/doom	usr/share/sxiv/
+drwxr-xr-x	doom/doom	usr/share/sxiv/exec/
+-rwxr-xr-x	doom/doom	usr/share/sxiv/exec/image-info

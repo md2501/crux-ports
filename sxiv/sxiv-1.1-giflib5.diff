@@ -1,0 +1,12 @@
+diff -up sxiv-1.1/image.c sxiv-1.1-gl5/image.c
+--- sxiv-1.1/image.c	2013-03-30 12:14:10.000000000 +0000
++++ sxiv-1.1-gl5/image.c	2013-04-19 15:24:29.399927484 +0000
+@@ -125,7 +125,7 @@ bool img_load_gif(img_t *img, const file
+ 	img->multi.cnt = 0;
+ 	img->multi.sel = 0;
+ 
+-	gif = DGifOpenFileName(file->path);
++	gif = DGifOpenFileName(file->path, NULL);
+ 	if (gif == NULL) {
+ 		warn("could not open gif file: %s", file->name);
+ 		return false;

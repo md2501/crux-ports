@@ -1,0 +1,18 @@
+# Description: Backend utility to get cddb information
+# URL:         http://lly.org/~rcw/cd-discid/
+# Maintainer:  doom, dm <at> archlinux <dot> info
+# Depends on:  glibc
+
+name=cd-discid
+version=0.9
+release=1
+source=(http://lly.org/~rcw/$name/${name}_$version.orig.tar.gz)
+
+build () {
+    cd "$name-$version"
+    make
+    make DESTDIR=$PKG \
+        PREFIX=/usr \
+        mandir=$PKG/usr/man/man1 \
+        install
+}

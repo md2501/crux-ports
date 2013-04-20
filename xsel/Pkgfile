@@ -1,0 +1,20 @@
+# Description: command-line program for getting and setting the contents of the X selection
+# URL:         http://www.vergenet.net/~conrad/software/xsel/
+# Maintainer:  doom, dm <at> archlinux <dot> info
+# Packager:    doom, dm <at> archlinux <dot> info
+# Depends on:  xorg-libx11
+
+name=xsel
+version=1.2.0
+release=1
+depends=('libx11')
+source=(http://www.vergenet.net/~conrad/software/xsel/download/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr --datarootdir=/usr
+  make
+  make DESTDIR=$PKG install
+  mkdir -p $PKG/usr/share/licenses/xsel/
+  install -D -m0644 COPYING $PKG/usr/share/licenses/xsel/COPYING
+}

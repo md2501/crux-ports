@@ -1,0 +1,20 @@
+# Description: simple/suckless image-viewer
+# URL:         https://github.com/muennich/sxiv.html 
+# Maintainer:  doom, dm <at> archlinux <dot> info
+# Depends on:  imlib2
+
+name=sxiv
+version=1.1
+release=1
+source=(https://github.com/muennich/$name/archive/v$version.zip config.h sxiv-1.1-giflib5.diff)
+
+build () {
+    cd "$name-$version"
+    patch -p1 < $SRC/sxiv-1.1-giflib5.diff
+    cp $SRC/config.h .
+    make
+    make DESTDIR=$PKG \
+        PREFIX=/usr \
+        MANPREFIX=/usr/man \
+        install
+}

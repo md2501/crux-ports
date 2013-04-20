@@ -1,0 +1,21 @@
+# Description: an ad- and malware-blocking cronscript for Linux
+# URL:         http://gaenserich.github.io/hostsblock/
+# Maintainer:  doom, dm <at> archlinux <dot> info
+# Packager:    doom, dm <at> archlinux <dot> info
+# Depends on:  coreutils curl
+
+name=hostsblock
+version=0.11.2
+release=1
+source=(https://aur.archlinux.org/packages/ho/$name/$name.tar.gz hostsblock-0.11.2-lists.diff)
+
+build () {
+    cd "$name"
+    	patch -p1 < $SRC/hostsblock-0.11.2-lists.diff
+	install -Dm755 hostsblock.sh $PKG/usr/sbin/hostsblock
+	install -Dm755 hostsblock-urlcheck.sh $PKG/usr/sbin/hostsblock-urlcheck
+	install -Dm644 rc.conf $PKG/etc/hostsblock/rc.conf
+	install -Dm644 black.list $PKG/etc/hostsblock/black.list
+	install -Dm644 white.list $PKG/etc/hostsblock/white.list
+	install -Dm644 hosts.head $PKG/etc/hostsblock/hosts.head
+}
