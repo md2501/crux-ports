@@ -22,7 +22,6 @@ build() {
     --with-cryptsetup-prog=/usr/sbin/cryptsetup --datarootdir=/usr
   make
 
-  cd ../$name-$version
   make DESTDIR="$PKG" install
   mkdir -p $PKG/media
   rm -rf $PKG/usr/share/locale
