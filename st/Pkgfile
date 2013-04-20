@@ -10,7 +10,7 @@ source=(http://dl.suckless.org/st/$name-$version.tar.gz config.h)
 
 build () {
     cd "$name-$version"
-    cp ../config.h .
+    cp $SRC/config.h .
     make
     mkdir -p $PKG/usr/share/terminfo
     make DESTDIR=$PKG \
