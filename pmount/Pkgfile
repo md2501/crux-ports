@@ -20,5 +20,5 @@ build() {
 
   make DESTDIR="$PKG" install
   mkdir -p $PKG/media
-  rm -rf $PKG/usr/share/locale
+  rm -rf $PKG/usr/share
 }
