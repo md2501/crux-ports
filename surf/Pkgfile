@@ -1,6 +1,6 @@
 # Description: simple web-browser
 # URL:         http://surf.suckless.org/
-# Maintainer:  doom, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
 # Depends on:  webkit dmenu curl xorg-xprop xterm ca-certificates
 
 name=surf

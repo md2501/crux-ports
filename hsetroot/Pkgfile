@@ -1,6 +1,6 @@
 # Description: A tool which allows you to compose wallpapers for X.
 # URL:         http://www.thegraveyard.org/hsetroot.php
-# Maintainer:  doom, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
 # Depends on:  xorg-server imlib2
 
 name=hsetroot

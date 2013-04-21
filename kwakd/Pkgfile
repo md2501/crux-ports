@@ -1,7 +1,7 @@
 # Description: tiny web server serving blank html pages
 # URL:         https://code.google.com/p/kwakd/
-# Maintainer:  doom, dm <at> archlinux <dot> info
-# Packager:    doom, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Packager:    Maximilian Dietrich, dm <at> archlinux <dot> info
 # Depends on: 
 
 name=kwakd

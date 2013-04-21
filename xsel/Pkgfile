@@ -1,7 +1,7 @@
 # Description: command-line program for getting and setting the contents of the X selection
 # URL:         http://www.vergenet.net/~conrad/software/xsel/
-# Maintainer:  doom, dm <at> archlinux <dot> info
-# Packager:    doom, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Packager:    Maximilian Dietrich, dm <at> archlinux <dot> info
 # Depends on:  xorg-libx11
 
 name=xsel

@@ -1,6 +1,6 @@
 # Description: simple terminal implementation for X
 # URL:         http://st.suckless.org/
-# Maintainer:  doom, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
 # Depends on:  xorg-libxex xorg-libxft
 
 name=st
