@@ -1,0 +1,17 @@
+# Description:	girara is a library that implements a user interface that focuses on simplicity and minimalism
+# URL:		http://pwmt.org/projects/girara/		
+# Maintainer:   Maximilian Dietrich, dm <at> archlinux <dot> info
+# Packager:     Ivan Rodionov, jean at mosk ru
+# Depends on:	gtk
+
+name=girara
+version=0.1.5
+release=1
+source=(http://pwmt.org/projects/$name/download/$name-$version.tar.gz)
+
+build () {
+	cd $name-$version
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share
+}

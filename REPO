@@ -1,5 +1,6 @@
 d:hostsblock
 d:sxiv
+d:girara
 d:surf
 d:abcde
 d:dwm
@@ -8,7 +9,9 @@ d:xsel
 d:hsetroot
 d:cd-discid
 d:wmname
+d:zathura
 d:tabbed
+d:zathura-pdf-poppler
 d:pmount
 d:st
 f:4ce79f64df6d2e37889130df900349f4:hostsblock/Pkgfile
@@ -22,6 +25,9 @@ f:19719bba4f18350812145cbe1a5ddf49:sxiv/.md5sum
 f:59af688d1e94ca5daaa6823730c20222:sxiv/README
 f:c75e648280fdca72aab8c5d6dab5fc66:sxiv/.footprint
 f:6409c21712e33a50f621ddee2114e989:sxiv/sxiv-1.1-giflib5.diff
+f:6928f82a2d7fc9bd8b4777f3d0508566:girara/Pkgfile
+f:15472956e215813a3bd2a5dfb4e035e6:girara/.md5sum
+f:78fb4efe4180e13e50a3095486b65293:girara/.footprint
 f:13aaf62310a3d19db43507313266e286:surf/Pkgfile
 f:15c2c911658e2e6085e4c4fa7a7b01c1:surf/config.h
 f:50ece536fbd2bad37348cee1a3b88b8b:surf/.md5sum
@@ -51,11 +57,17 @@ f:ee0e399e784beda4e3bf657b9b564d53:cd-discid/.footprint
 f:28a03316c918bc42fa51f4c93ae71057:wmname/Pkgfile
 f:120826cc34159b795735b017b44085a8:wmname/.md5sum
 f:c737aa5ed9dbfaab485dc6b479225cd5:wmname/.footprint
+f:eb4f8ae6b918538f6f081ae746fa6f9e:zathura/Pkgfile
+f:1312634c5e0ea73dfc8686e7ade9d6cd:zathura/.md5sum
+f:d8c63c7c3d2d5d24a0ee194d5169eaca:zathura/.footprint
 f:19555c7b5b4421081f29bcf22823fe7c:tabbed/Pkgfile
 f:a012a568f1c6123ed064c74c293b136e:tabbed/config.h
 f:845940e6d75861ea5d6f65fd9c4652b2:tabbed/.md5sum
 f:883f9b9bf4c2a4a2c7de246a30b6f60b:tabbed/README
 f:c69833a56c10104a61fc4e46aeaa3d3b:tabbed/.footprint
+f:fb1d6b24447fa7ea7b474bfeb5bb8ee0:zathura-pdf-poppler/Pkgfile
+f:a2aa994f7b0386532fcb0afc93efce11:zathura-pdf-poppler/.md5sum
+f:68e3d6b146a2030a5f7a2bd5a0a94e84:zathura-pdf-poppler/.footprint
 f:8974f99b5d69c7cb766dc13cef45d46e:pmount/Pkgfile
 f:667de1408288fd28c785002c955c6005:pmount/.md5sum
 f:6bdc0384917de3ae165735c506e0519e:pmount/.footprint
