@@ -1,4 +1,7 @@
 drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/cron/
+drwxr-xr-x	root/root	etc/cron/weekly/
+lrwxrwxrwx	root/root	etc/cron/weekly/hostsblock -> /usr/sbin/hostsblock
 drwxr-xr-x	root/root	etc/hostsblock/
 -rw-r--r--	root/root	etc/hostsblock/black.list
 -rw-r--r--	root/root	etc/hostsblock/hosts.head

@@ -14,11 +14,11 @@ d:tabbed
 d:zathura-pdf-poppler
 d:pmount
 d:st
-f:4ce79f64df6d2e37889130df900349f4:hostsblock/Pkgfile
+f:fc257d3f8c38601ef665482c3de6ff59:hostsblock/Pkgfile
 f:3b9c5aef58a52b10d7d50990fb854afe:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
 f:70fc43f7074df95c3648d46ad8f66ab6:hostsblock/hostsblock-0.11.2-lists.diff
-f:479582647050fcd44102c3a7c31192e1:hostsblock/.footprint
+f:8af90118f55987e429926e27379489be:hostsblock/.footprint
 f:3776f50c6f9f81940ad0dfb2384780f0:sxiv/Pkgfile
 f:53729e7dfba3c12b26fc8359d56523a2:sxiv/config.h
 f:19719bba4f18350812145cbe1a5ddf49:sxiv/.md5sum

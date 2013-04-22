@@ -18,4 +18,6 @@ build () {
 	install -Dm644 black.list $PKG/etc/hostsblock/black.list
 	install -Dm644 white.list $PKG/etc/hostsblock/white.list
 	install -Dm644 hosts.head $PKG/etc/hostsblock/hosts.head
+	mkdir -p $PKG/etc/cron/weekly
+	ln -s /usr/sbin/hostsblock $PKG/etc/cron/weekly/
 }
