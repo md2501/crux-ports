@@ -1,5 +1,5 @@
 # Description:	zathura is a highly customizable and functional document viewer.
-# URL:		http://pwmt.org/projects/zathura/		
+# URL:		http://pwmt.org/projects/zathura/plugins/zathura-pdf-poppler/
 # Maintainer:   Maximilian Dietrich, dm <at> archlinux <dot> info
 # Packager:     Ivan Rodionov, jean at mosk ru
 # Depends on:	gtk girara zathura poppler-glib
