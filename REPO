@@ -1,3 +1,4 @@
+d:gsimplecal
 d:hostsblock
 d:sxiv
 d:girara
@@ -15,6 +16,9 @@ d:tabbed
 d:zathura-pdf-poppler
 d:pmount
 d:st
+f:22b68fbf5e3ab91c0634e47644e64555:gsimplecal/Pkgfile
+f:54915f1a89e9ef56480922adf87d4c3a:gsimplecal/.md5sum
+f:e34ec2e71041960d8ce00b9fab4ea0da:gsimplecal/.footprint
 f:ecc2c181657b9e9ee74bc6f9346aad73:hostsblock/Pkgfile
 f:3b9c5aef58a52b10d7d50990fb854afe:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
