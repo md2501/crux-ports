@@ -5,7 +5,7 @@
 # Depends on:
 
 name=mksh
-version=44
+version=45
 release=1
 source=(http://www.mirbsd.org/MirOS/dist/mir/mksh/$name-R$version.tgz)
 
