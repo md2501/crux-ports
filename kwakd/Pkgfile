@@ -11,7 +11,7 @@ source=(https://kwakd.googlecode.com/files/kwakd-0.3.tgz kwakd)
 
 build () {
     cd "$name-$version"
-    ./configure --prefix=/usr --datarootdir=/usr
+    ./configure --prefix=/usr --mandir=/usr/man
     make
     make DESTDIR=$PKG \
         install

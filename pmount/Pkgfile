@@ -15,7 +15,7 @@ build() {
   cd $name-$version
   patch -Np1 -i $SRC/fix-pmount-segfault.diff
   ./configure --prefix=/usr --disable-hal \
-    --with-cryptsetup-prog=/usr/sbin/cryptsetup --datarootdir=/usr
+    --with-cryptsetup-prog=/usr/sbin/cryptsetup --mandir=/usr/man
   make
 
   make DESTDIR="$PKG" install

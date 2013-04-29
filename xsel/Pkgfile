@@ -12,7 +12,7 @@ source=(http://www.vergenet.net/~conrad/software/xsel/download/$name-$version.ta
 
 build() {
   cd $name-$version
-  ./configure --prefix=/usr --datarootdir=/usr
+  ./configure --prefix=/usr --mandir=/usr/man
   make
   make DESTDIR=$PKG install
 }
