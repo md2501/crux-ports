@@ -51,11 +51,11 @@ f:2453e037f46449774ec8afab49b4f1a2:dwm/config.h
 f:f2feb14f5a78f43f8f496e20ad4e638d:dwm/.md5sum
 f:a71b50bb2c7c2a7158e7ca62f637542f:dwm/README
 f:4978ab77a206262b890100d8288ae141:dwm/.footprint
-f:5174aafecf6df9d02673a6ac4d853c0a:kwakd/Pkgfile
+f:22bf2885c521c189f1d14359e2f18c31:kwakd/Pkgfile
 f:1607c50a32b41f7586f55755a5bc56f9:kwakd/.md5sum
 f:e1ce068ebc3dee200f27fac6a413f7c7:kwakd/kwakd
 f:1bfe2443285cd4e56ee72d803eb3756c:kwakd/.footprint
-f:b73f946e7196eac0bd27132de00fbf15:xsel/Pkgfile
+f:49c0b7d7f57abff581c99238cc3d7bed:xsel/Pkgfile
 f:874f8edd12d51fd6dece83a0834e4728:xsel/.md5sum
 f:b0913a2936786a785f9a40cc4da98714:xsel/.footprint
 f:125b4a9e6b5873a6b847976e4fbbae8c:hsetroot/Pkgfile
@@ -81,7 +81,7 @@ f:c69833a56c10104a61fc4e46aeaa3d3b:tabbed/.footprint
 f:bec5d377f0a10f971502fe73f8ddee2f:zathura-pdf-poppler/Pkgfile
 f:a2aa994f7b0386532fcb0afc93efce11:zathura-pdf-poppler/.md5sum
 f:68e3d6b146a2030a5f7a2bd5a0a94e84:zathura-pdf-poppler/.footprint
-f:8974f99b5d69c7cb766dc13cef45d46e:pmount/Pkgfile
+f:52be77af719034bd482ab2605270eb3a:pmount/Pkgfile
 f:667de1408288fd28c785002c955c6005:pmount/.md5sum
 f:6bdc0384917de3ae165735c506e0519e:pmount/.footprint
 f:3d750308346f2fe779076d9ad9e89c83:st/Pkgfile
