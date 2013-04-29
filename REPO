@@ -12,6 +12,7 @@ d:hsetroot
 d:cd-discid
 d:wmname
 d:zathura
+d:xbindkeys
 d:tabbed
 d:zathura-pdf-poppler
 d:pmount
@@ -69,6 +70,9 @@ f:c737aa5ed9dbfaab485dc6b479225cd5:wmname/.footprint
 f:eb4f8ae6b918538f6f081ae746fa6f9e:zathura/Pkgfile
 f:1312634c5e0ea73dfc8686e7ade9d6cd:zathura/.md5sum
 f:d8c63c7c3d2d5d24a0ee194d5169eaca:zathura/.footprint
+f:4cead2c4beb7a0707150b6a7def96c8a:xbindkeys/Pkgfile
+f:760800891fba2f732b5625360be8dd25:xbindkeys/.md5sum
+f:efcb64a6af2094865b91ba402bc68cde:xbindkeys/.footprint
 f:19555c7b5b4421081f29bcf22823fe7c:tabbed/Pkgfile
 f:a012a568f1c6123ed064c74c293b136e:tabbed/config.h
 f:845940e6d75861ea5d6f65fd9c4652b2:tabbed/.md5sum
