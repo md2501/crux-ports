@@ -15,6 +15,7 @@ d:zathura
 d:xbindkeys
 d:tabbed
 d:zathura-pdf-poppler
+d:crawl
 d:pmount
 d:st
 f:22b68fbf5e3ab91c0634e47644e64555:gsimplecal/Pkgfile
@@ -81,6 +82,9 @@ f:c69833a56c10104a61fc4e46aeaa3d3b:tabbed/.footprint
 f:bec5d377f0a10f971502fe73f8ddee2f:zathura-pdf-poppler/Pkgfile
 f:a2aa994f7b0386532fcb0afc93efce11:zathura-pdf-poppler/.md5sum
 f:68e3d6b146a2030a5f7a2bd5a0a94e84:zathura-pdf-poppler/.footprint
+f:c53f64c644322f466a2ecd1f57e83e58:crawl/Pkgfile
+f:70a094063ebaeed56405248c6fcdb078:crawl/.md5sum
+f:21f102dbaae9b55b2e715042a2b13d5c:crawl/.footprint
 f:52be77af719034bd482ab2605270eb3a:pmount/Pkgfile
 f:667de1408288fd28c785002c955c6005:pmount/.md5sum
 f:6bdc0384917de3ae165735c506e0519e:pmount/.footprint
