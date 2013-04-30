@@ -1,0 +1,21 @@
+# Description: A simple tool to retrieve the X screensaver state.
+# URL:         http://tools.suckless.org/xssstate
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  xorg-libx11
+
+name=xssstate
+version=1.0
+release=1
+source=(README)
+
+build () {
+    mkdir $name
+    cd $name
+    wget http://git.suckless.org/xssstate/plain/{Makefile,arg.h,config.mk,xsidle.sh,LICENSE,xssstate.c,xssstate.1,README} 
+    make
+    make DESTDIR=$PKG \
+        PREFIX=/usr \
+	MANPREFIX=/usr/man \
+        install
+    cp xsidle.sh $PKG/usr/bin
+}

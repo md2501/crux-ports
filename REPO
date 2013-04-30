@@ -17,6 +17,7 @@ d:zathura
 d:xbindkeys
 d:tabbed
 d:zathura-pdf-poppler
+d:xssstate
 d:crawl
 d:pmount
 d:st
@@ -90,6 +91,10 @@ f:c69833a56c10104a61fc4e46aeaa3d3b:tabbed/.footprint
 f:bec5d377f0a10f971502fe73f8ddee2f:zathura-pdf-poppler/Pkgfile
 f:a2aa994f7b0386532fcb0afc93efce11:zathura-pdf-poppler/.md5sum
 f:68e3d6b146a2030a5f7a2bd5a0a94e84:zathura-pdf-poppler/.footprint
+f:52646917bc66ac06dd68f6a7ceaddc82:xssstate/Pkgfile
+f:260b58c8350c4bf713a6c7b54d254575:xssstate/.md5sum
+f:140aa931a7e72547b8cb19255b43c740:xssstate/README
+f:34b8c88eccb6f94d0cb3d6bd1fee653c:xssstate/.footprint
 f:80e40e509f339af3db56440a991237b8:crawl/Pkgfile
 f:70a094063ebaeed56405248c6fcdb078:crawl/.md5sum
 f:21f102dbaae9b55b2e715042a2b13d5c:crawl/.footprint

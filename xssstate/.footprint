@@ -1,0 +1,7 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rw-r--r--	root/root	usr/bin/xsidle.sh
+-rwxr-xr-x	root/root	usr/bin/xssstate
+drwxr-xr-x	root/root	usr/man/
+drwxr-xr-x	root/root	usr/man/man1/
+-rw-r--r--	root/root	usr/man/man1/xssstate.1.gz
