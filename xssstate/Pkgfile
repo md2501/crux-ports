@@ -6,12 +6,9 @@
 name=xssstate
 version=1.0
 release=1
-source=(README)
+source=(http://git.suckless.org/xssstate/plain/{Makefile,arg.h,config.mk,xsidle.sh,LICENSE,xssstate.c,xssstate.1,README})
 
 build () {
-    mkdir $name
-    cd $name
-    wget http://git.suckless.org/xssstate/plain/{Makefile,arg.h,config.mk,xsidle.sh,LICENSE,xssstate.c,xssstate.1,README} 
     make
     make DESTDIR=$PKG \
         PREFIX=/usr \
