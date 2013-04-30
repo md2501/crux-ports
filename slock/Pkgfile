@@ -1,0 +1,17 @@
+# Description: Simple X display locker.
+# URL:         http://tools.suckless.org/slock
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  xorg-libx11
+
+name=slock
+version=1.1
+release=1
+source=(http://dl.suckless.org/tools/$name-$version.tar.gz)
+
+build () {
+    cd "$name-$version"
+    make
+    make DESTDIR=$PKG \
+        PREFIX=/usr \
+        install
+}

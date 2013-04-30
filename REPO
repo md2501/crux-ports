@@ -4,6 +4,7 @@ d:sxiv
 d:girara
 d:crawl-tiles
 d:mksh
+d:slock
 d:surf
 d:abcde
 d:dwm
@@ -43,6 +44,9 @@ f:5770ba7ebf7b7df4febfaea5568112f8:mksh/Pkgfile
 f:4f55c46143e4a42ab26ed9745c3dcda0:mksh/.md5sum
 f:7adc7a5cca62a94888f6791fdf1cdc21:mksh/README
 f:e2ce789e0a86ee5428f8565527414a20:mksh/.footprint
+f:a0a34284fdde8d511687064c107325c1:slock/Pkgfile
+f:7c86caea9a4a670d23dd78b552db73cf:slock/.md5sum
+f:c612b3505dd09abd7d7438341488a46c:slock/.footprint
 f:13aaf62310a3d19db43507313266e286:surf/Pkgfile
 f:15c2c911658e2e6085e4c4fa7a7b01c1:surf/config.h
 f:50ece536fbd2bad37348cee1a3b88b8b:surf/.md5sum
