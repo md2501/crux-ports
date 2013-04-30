@@ -14,5 +14,5 @@ build () {
         PREFIX=/usr \
 	MANPREFIX=/usr/man \
         install
-    cp xsidle.sh $PKG/usr/bin
+    install -D -m 755 $SRC/xsidle.sh $PKG/usr/bin/xsidle.sh
 }
