@@ -4,7 +4,7 @@
 # Depends on:  xorg-libx11
 
 name=tabbed
-version=0.4.1
+version=0.5
 release=1
 source=(http://dl.suckless.org/tools/$name-$version.tar.gz config.h)
 
