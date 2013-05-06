@@ -12,6 +12,7 @@ d:kwakd
 d:xsel
 d:hsetroot
 d:cd-discid
+d:terminus-font
 d:wmname
 d:zathura
 d:xbindkeys
@@ -74,6 +75,9 @@ f:d64797667b8f07a033863f005796ba42:hsetroot/.footprint
 f:34abfcb5305369f382e57698bc8bd60c:cd-discid/Pkgfile
 f:fc461f8392324711c4411371d3040b66:cd-discid/.md5sum
 f:ee0e399e784beda4e3bf657b9b564d53:cd-discid/.footprint
+f:40cebb85b5f44adb8d23b9ad024ad1dd:terminus-font/Pkgfile
+f:4c756e004ab4fbe3879f81d775f9efbe:terminus-font/.md5sum
+f:a3f801835a4107babda10a4bd811843c:terminus-font/.footprint
 f:28a03316c918bc42fa51f4c93ae71057:wmname/Pkgfile
 f:120826cc34159b795735b017b44085a8:wmname/.md5sum
 f:c737aa5ed9dbfaab485dc6b479225cd5:wmname/.footprint
