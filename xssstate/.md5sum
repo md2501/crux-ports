@@ -1,8 +1,1 @@
-bf9eb5fff12089ee76c46e4c995664df  LICENSE
-d181dea679ec5a02d1753435db3ca161  Makefile
-140aa931a7e72547b8cb19255b43c740  README
-77c0ec94fde8bcdaf4f5592a3024c20b  arg.h
-451fe7fe41f6ee5d8fbeca055c39b1e4  config.mk
-d7cef9795c7b098e5730748a80f18e58  xsidle.sh
-6cb0427edc222ba5a46ce57b0dae8a0f  xssstate.1
-2bcc2a4d1b8954c14beae70644e11232  xssstate.c
+5bfb9f7c3d4b4ff742d20c5cfe3148f4  xssstate-1.0.tar.gz

@@ -5,14 +5,15 @@
 
 name=xssstate
 version=1.0
-release=2
-source=(http://git.suckless.org/xssstate/plain/{Makefile,arg.h,config.mk,xsidle.sh,LICENSE,xssstate.c,xssstate.1,README})
+release=3
+source=(http://dl.suckless.org/tools/$name-$version.tar.gz)
 
 build () {
+    cd $name-$version
     make
     make DESTDIR=$PKG \
         PREFIX=/usr \
 	MANPREFIX=/usr/man \
         install
-    install -D -m 755 $SRC/xsidle.sh $PKG/usr/bin/xsidle.sh
+    install -D -m 755 $SRC/$name-$version/xsidle.sh $PKG/usr/bin/xsidle.sh
 }
