@@ -1,0 +1,21 @@
+# Description: text-mode partitioning tool for GPT
+# URL:         http://www.rodsbooks.com/gdisk/
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  icu popt util-linux gcc
+
+name=gptfdisk
+version=0.8.6
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.gz)
+
+build () {
+    cd "$name-$version"
+
+    # get rid of debug messages
+    sed -i '/Entering GPTPart::SetName/d' gptpart.cc
+
+    make
+  install -d "$PKG"/usr/{bin,man/man8}
+  install -t "$PKG"/usr/bin {,c,s}gdisk fixparts
+  install -m644 -t $PKG/usr/man/man8 {{,c,s}gdisk,fixparts}.8
+}
