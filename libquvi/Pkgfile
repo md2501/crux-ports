@@ -1,0 +1,17 @@
+# Description: Library for parsing video download links.
+# URL:         http://quvi.sourceforge.net/
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  curl lua libquvi-scripts
+
+name=libquvi
+version=0.4.1
+release=1
+source=(http://downloads.sourceforge.net/sourceforge/quvi/$name-$version.tar.xz)
+
+build () {
+    cd "$name-$version"
+    ./configure --prefix=/usr --mandir=/usr/man
+    make
+    make DESTDIR=$PKG \
+        install
+}
