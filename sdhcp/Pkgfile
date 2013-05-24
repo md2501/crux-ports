@@ -1,0 +1,25 @@
+# Description: sdhcp – A tiny dhcp client 
+# URL:         http://galos.no-ip.org/sdhcp
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  
+
+name=sdhcp
+version=1.0
+release=1
+source=(http://galos.no-ip.org/$name.tar.gz)
+
+build () {
+    cd "$name"
+    # adjust install path
+    sed -i s'/install -s/install -Ds/' Makefile
+    sed -i s'/sbin/sbin\/sdhcp/' Makefile
+    sed -i s'/usr\/share/\$(DESTDIR)\/usr/' Makefile
+    # remove precompiled executable
+    rm sdhcp
+    # create man directory
+    mkdir -p $PKG/usr/man/man8
+    # finally build
+    make
+    make DESTDIR=$PKG \
+        install
+}

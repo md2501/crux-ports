@@ -12,6 +12,7 @@ d:surf
 d:abcde
 d:libquvi-scripts
 d:dwm
+d:sdhcp
 d:kwakd
 d:xsel
 d:libquvi
@@ -81,6 +82,9 @@ f:2453e037f46449774ec8afab49b4f1a2:dwm/config.h
 f:f2feb14f5a78f43f8f496e20ad4e638d:dwm/.md5sum
 f:a71b50bb2c7c2a7158e7ca62f637542f:dwm/README
 f:4978ab77a206262b890100d8288ae141:dwm/.footprint
+f:33b4a7851c84c7c5fb184d2e76b44130:sdhcp/Pkgfile
+f:68791538b2af60909a5c29a506d4e7bc:sdhcp/.md5sum
+f:f4213fba2c1772f563aa67d65e2b510f:sdhcp/.footprint
 f:22bf2885c521c189f1d14359e2f18c31:kwakd/Pkgfile
 f:1607c50a32b41f7586f55755a5bc56f9:kwakd/.md5sum
 f:e1ce068ebc3dee200f27fac6a413f7c7:kwakd/kwakd
