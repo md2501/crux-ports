@@ -1,5 +1,6 @@
 d:gsimplecal
 d:gptfdisk
+d:dvtm
 d:hostsblock
 d:sxiv
 d:girara
@@ -36,6 +37,10 @@ f:e34ec2e71041960d8ce00b9fab4ea0da:gsimplecal/.footprint
 f:b9df158794bf05835c4de0fae2422a58:gptfdisk/Pkgfile
 f:2d4991f905ca28aff548bd5469e6de77:gptfdisk/.md5sum
 f:c7c70efd2521876ea8a9495fa0d99ae0:gptfdisk/.footprint
+f:462e202e7f4378b0dbb04fa8343c2662:dvtm/Pkgfile
+f:41107e5e84a8572f70d6cb111b4e07f8:dvtm/config.h
+f:996cb2d21d21ad35caae5f02c4c42449:dvtm/.md5sum
+f:2ec790d7f51b7fcf3a34ceaca93da438:dvtm/.footprint
 f:ecc2c181657b9e9ee74bc6f9346aad73:hostsblock/Pkgfile
 f:3b9c5aef58a52b10d7d50990fb854afe:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
