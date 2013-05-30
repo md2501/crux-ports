@@ -18,10 +18,8 @@ d:libquvi
 d:hsetroot
 d:cd-discid
 d:wmname
-d:zathura
 d:xbindkeys
 d:tabbed
-d:zathura-pdf-poppler
 d:xssstate
 d:sic
 d:crawl
@@ -101,9 +99,6 @@ f:ee0e399e784beda4e3bf657b9b564d53:cd-discid/.footprint
 f:28a03316c918bc42fa51f4c93ae71057:wmname/Pkgfile
 f:120826cc34159b795735b017b44085a8:wmname/.md5sum
 f:c737aa5ed9dbfaab485dc6b479225cd5:wmname/.footprint
-f:2e8df91dd1c62f55cf3539d49a100342:zathura/Pkgfile
-f:c1009731b5188d90aa32aa6329588b1c:zathura/.md5sum
-f:d8c63c7c3d2d5d24a0ee194d5169eaca:zathura/.footprint
 f:4cead2c4beb7a0707150b6a7def96c8a:xbindkeys/Pkgfile
 f:760800891fba2f732b5625360be8dd25:xbindkeys/.md5sum
 f:efcb64a6af2094865b91ba402bc68cde:xbindkeys/.footprint
@@ -112,9 +107,6 @@ f:cea7b04d4f67d917c68673cd0e63ae32:tabbed/config.h
 f:a38d37150087999eae0f28f6969d1b7b:tabbed/.md5sum
 f:883f9b9bf4c2a4a2c7de246a30b6f60b:tabbed/README
 f:c69833a56c10104a61fc4e46aeaa3d3b:tabbed/.footprint
-f:bec5d377f0a10f971502fe73f8ddee2f:zathura-pdf-poppler/Pkgfile
-f:a2aa994f7b0386532fcb0afc93efce11:zathura-pdf-poppler/.md5sum
-f:68e3d6b146a2030a5f7a2bd5a0a94e84:zathura-pdf-poppler/.footprint
 f:540f6795fa1ce17f105471c0c35c1ce8:xssstate/Pkgfile
 f:5532da1e78e9d798430fdee510342f30:xssstate/.md5sum
 f:54171ce7175b452a5724ad21e8545641:xssstate/.footprint
