@@ -1,0 +1,19 @@
+# Description: Lists the titles of all running X windows
+# URL:         http://tools.suckless.org/lsw
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  xorg-libx11
+
+name=lsw
+version=0.2
+release=1
+source=(http://dl.suckless.org/tools/$name-$version.tar.gz)
+
+build () {
+    cd "$name-$version"
+    make
+    mkdir -p $PKG/usr/man/man1
+    make DESTDIR=$PKG \
+        PREFIX=/usr \
+        MANPREFIX=/usr/man \
+        install
+}

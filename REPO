@@ -3,7 +3,6 @@ d:gptfdisk
 d:dvtm
 d:hostsblock
 d:sxiv
-d:girara
 d:quvi
 d:crawl-tiles
 d:mksh
@@ -21,6 +20,7 @@ d:wmname
 d:xbindkeys
 d:tabbed
 d:xssstate
+d:lsw
 d:sic
 d:crawl
 d:pmount
@@ -48,9 +48,6 @@ f:19719bba4f18350812145cbe1a5ddf49:sxiv/.md5sum
 f:59af688d1e94ca5daaa6823730c20222:sxiv/README
 f:c75e648280fdca72aab8c5d6dab5fc66:sxiv/.footprint
 f:6409c21712e33a50f621ddee2114e989:sxiv/sxiv-1.1-giflib5.diff
-f:e0862a70bf886cc2a525ffd197c009d9:girara/Pkgfile
-f:93061506b77d2f18383c5d857f37493b:girara/.md5sum
-f:5cb72df6b2dd77a6112c2201de800f34:girara/.footprint
 f:efe1b11326972dc409de51248b52ec45:quvi/Pkgfile
 f:054944cb4264f460a75e52eedbf05f7f:quvi/.md5sum
 f:5652a26bfd099c2bba7d8034783826bd:quvi/.footprint
@@ -110,6 +107,9 @@ f:c69833a56c10104a61fc4e46aeaa3d3b:tabbed/.footprint
 f:540f6795fa1ce17f105471c0c35c1ce8:xssstate/Pkgfile
 f:5532da1e78e9d798430fdee510342f30:xssstate/.md5sum
 f:54171ce7175b452a5724ad21e8545641:xssstate/.footprint
+f:a8117eef9fa5911d5b646501bf2d1ef1:lsw/Pkgfile
+f:493e9dccef0f974e32fd9997c3f2e88e:lsw/.md5sum
+f:d35e08aff7339d57dfeb7de473965f64:lsw/.footprint
 f:f390322d0060656714ec8a37d027f74e:sic/Pkgfile
 f:80aa26dba72b3fed6f011100e5d74a17:sic/.md5sum
 f:21096e491efc265e8b1048d811684cb2:sic/.footprint
