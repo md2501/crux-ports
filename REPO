@@ -36,10 +36,9 @@ f:41107e5e84a8572f70d6cb111b4e07f8:dvtm/config.h
 f:996cb2d21d21ad35caae5f02c4c42449:dvtm/.md5sum
 f:9d553293c14b1d105aa3190f588539fd:dvtm/README
 f:2ec790d7f51b7fcf3a34ceaca93da438:dvtm/.footprint
-f:ecc2c181657b9e9ee74bc6f9346aad73:hostsblock/Pkgfile
-f:3b9c5aef58a52b10d7d50990fb854afe:hostsblock/.md5sum
+f:db55178ff9b392f6480d72077d015a8d:hostsblock/Pkgfile
+f:1ca01517f055036b01bf072da5767017:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
-f:70fc43f7074df95c3648d46ad8f66ab6:hostsblock/hostsblock-0.11.2-lists.diff
 f:8af90118f55987e429926e27379489be:hostsblock/.footprint
 f:3776f50c6f9f81940ad0dfb2384780f0:sxiv/Pkgfile
 f:53729e7dfba3c12b26fc8359d56523a2:sxiv/config.h

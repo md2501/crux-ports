@@ -3,15 +3,15 @@
 # Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
 # Packager:    Maximilian Dietrich, dm <at> archlinux <dot> info
 # Depends on:  coreutils curl sed grep cron
+# Nice to have: dnsmasq p7zip unrar tar unzip kwakd
 
 name=hostsblock
-version=0.11.2
+version=0.12.2
 release=1
-source=(https://aur.archlinux.org/packages/ho/$name/$name.tar.gz hostsblock-0.11.2-lists.diff)
+source=(https://aur.archlinux.org/packages/ho/$name/$name.tar.gz)
 
 build () {
     cd "$name"
-    	patch -p1 < $SRC/hostsblock-0.11.2-lists.diff
 	install -Dm755 hostsblock.sh $PKG/usr/sbin/hostsblock
 	install -Dm755 hostsblock-urlcheck.sh $PKG/usr/sbin/hostsblock-urlcheck
 	install -Dm644 rc.conf $PKG/etc/hostsblock/rc.conf
