@@ -6,7 +6,7 @@
 # Nice to have: dnsmasq p7zip unrar tar unzip kwakd
 
 name=hostsblock
-version=0.12.2
+version=0.12.3
 release=1
 source=(https://aur.archlinux.org/packages/ho/$name/$name.tar.gz)
 
