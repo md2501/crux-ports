@@ -1,0 +1,18 @@
+# Description: A simple X hotkey daemon
+# URL:         https://github.com/baskerville/sxhkd
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  xorg-libxcb xorg-xcb-util-keysyms
+
+name=sxhkd
+version=0.3
+release=1
+source=(https://github.com/baskerville/$name/archive/$version.tar.gz)
+
+build () {
+    cd "$name-$version"
+    make
+    make DESTDIR=$PKG \
+        PREFIX=/usr \
+        MANPREFIX=/usr/man \
+        install
+}
