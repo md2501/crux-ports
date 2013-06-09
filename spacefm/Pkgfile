@@ -1,0 +1,22 @@
+# Description: Multi-panel tabbed file manager
+# URL:         http://ignorantguru.github.com/spacefm/
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  gtk udev shared-mime-info desktop-file-utils
+
+name=spacefm
+version=0.8.7
+release=1
+source=(https://raw.github.com/IgnorantGuru/$name/master/packages/$version/$name-$version.tar.xz)
+
+build () {
+    cd "$name-$version"
+    ./configure --prefix=/usr \
+	    --mandir=/usr/man \
+	    --disable-nls \
+	    --disable-startup-notifications \
+	    --with-gtk2
+    make
+    make DESTDIR=$PKG \
+        install
+    rm -rf $PKG/usr/share/{locale,doc}
+}

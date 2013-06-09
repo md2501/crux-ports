@@ -1,5 +1,6 @@
 d:gsimplecal
 d:tabbed
+d:spacefm
 d:pmount
 d:hostsblock
 d:crawl-tiles
@@ -32,6 +33,9 @@ f:c69833a56c10104a61fc4e46aeaa3d3b:tabbed/.footprint
 f:883f9b9bf4c2a4a2c7de246a30b6f60b:tabbed/README
 f:a38d37150087999eae0f28f6969d1b7b:tabbed/.md5sum
 f:cea7b04d4f67d917c68673cd0e63ae32:tabbed/config.h
+f:b15ebc4e2edc0769494283157f24b323:spacefm/Pkgfile
+f:9ffa0f179034afc1969084049a920448:spacefm/.footprint
+f:61b7c0db8bc88d353ed69024dba2d068:spacefm/.md5sum
 f:52be77af719034bd482ab2605270eb3a:pmount/Pkgfile
 f:6bdc0384917de3ae165735c506e0519e:pmount/.footprint
 f:667de1408288fd28c785002c955c6005:pmount/.md5sum
