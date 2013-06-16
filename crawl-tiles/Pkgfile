@@ -1,7 +1,7 @@
 # Description: Dungeon Crawl Stone Soup is a singleplayer roguelike game - Tiles version
 # URL:         http://crawl.develz.org/
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
-# Packager:    Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Packager:    Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:  sdl_image libpng freetype libsdl xorg-font-dejavu-ttf
 
 name=crawl-tiles

@@ -1,7 +1,7 @@
 # Description: mount removable devices as normal user
 # URL:         http://pmount.alioth.debian.org/
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
-# Packager:    Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Packager:    Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:  sysfsutils util-linux
 
 name=pmount

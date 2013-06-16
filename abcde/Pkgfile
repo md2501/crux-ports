@@ -1,6 +1,6 @@
 # Description: a better cd encoder
 # URL:         http://code.google.com/p/abcde
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:  bash cd-discid wget vorbis-tools
 
 name=abcde

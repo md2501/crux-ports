@@ -1,6 +1,6 @@
 # Description: extremely simple IRC client
 # URL:         http://tools.suckless.org/sic
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:
 
 name=sic

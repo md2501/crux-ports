@@ -1,7 +1,7 @@
 # Description: an ad- and malware-blocking cronscript for Linux
 # URL:         http://gaenserich.github.io/hostsblock/
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
-# Packager:    Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Packager:    Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:  coreutils curl sed grep cron
 # Nice to have: dnsmasq p7zip unrar tar unzip kwakd
 

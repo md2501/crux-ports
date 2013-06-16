@@ -1,6 +1,6 @@
 # Description: Backend utility to get cddb information
 # URL:         http://lly.org/~rcw/cd-discid/
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:  glibc
 
 name=cd-discid

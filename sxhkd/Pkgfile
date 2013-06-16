@@ -1,6 +1,6 @@
 # Description: A simple X hotkey daemon
 # URL:         https://github.com/baskerville/sxhkd
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:  xorg-libxcb xorg-xcb-util-keysyms
 
 name=sxhkd

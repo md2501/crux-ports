@@ -1,7 +1,7 @@
 # Description: Simple and lightweight GTK calendar
 # URL:         http://dmedvinsky.github.com/gsimplecal
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
-# Packager:    Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Packager:    Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:  gtk
 
 name=gsimplecal

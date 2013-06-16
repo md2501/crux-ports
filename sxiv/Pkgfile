@@ -1,6 +1,6 @@
 # Description: simple/suckless image-viewer
 # URL:         https://github.com/muennich/sxiv.html 
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:  imlib2
 
 name=sxiv
