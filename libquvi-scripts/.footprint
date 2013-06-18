@@ -14,7 +14,6 @@ drwxr-xr-x	root/root	usr/share/libquvi-scripts/lua/website/
 -rw-r--r--	root/root	usr/share/libquvi-scripts/lua/website/101greatgoals.lua
 -rw-r--r--	root/root	usr/share/libquvi-scripts/lua/website/1tvru.lua
 -rw-r--r--	root/root	usr/share/libquvi-scripts/lua/website/README
--rw-r--r--	root/root	usr/share/libquvi-scripts/lua/website/academicearth.lua
 -rw-r--r--	root/root	usr/share/libquvi-scripts/lua/website/ardmediathek.lua
 -rw-r--r--	root/root	usr/share/libquvi-scripts/lua/website/arte.lua
 -rw-r--r--	root/root	usr/share/libquvi-scripts/lua/website/audioboo.lua

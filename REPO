@@ -25,9 +25,9 @@ d:crawl
 d:dvtm
 d:hostsblock
 d:st
-f:37391ee76f17b2b84372e040f7c341d3:libquvi-scripts/.footprint
-f:037d0d3e94c3c59716b8c5aa3f671f6a:libquvi-scripts/.md5sum
-f:f8561f5b5d4aa0e77b4a5ce365cd9a42:libquvi-scripts/Pkgfile
+f:3f2d2e4c4903123fa1d546ce61de238a:libquvi-scripts/.footprint
+f:02bd13bcf867da76da57bc748e93fe47:libquvi-scripts/.md5sum
+f:d4e2c25204b4eeefbb543eb884b72bb5:libquvi-scripts/Pkgfile
 f:c75e648280fdca72aab8c5d6dab5fc66:sxiv/.footprint
 f:19719bba4f18350812145cbe1a5ddf49:sxiv/.md5sum
 f:53729e7dfba3c12b26fc8359d56523a2:sxiv/config.h
