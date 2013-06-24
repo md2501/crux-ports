@@ -1,0 +1,21 @@
+# Description: movie player based on MPlayer and mplayer2
+# URL:         http://mpv.io
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  xorg-libx11 freetype libjpeg libass ffmpeg alsa-lib freetype fribidi docutils glibc
+# Nice to have: libquvi
+
+name=mpv
+version=2013-06-22
+commit=9a83d03c5d8d6f73fd41707eb9775be1af3d3daf
+release=1
+source=(https://github.com/$name-player/$name/archive/$commit.zip)
+
+build () {
+    cd "$name-$commit"
+    chmod +x configure version.sh TOOLS/*
+    ./configure --prefix=/usr --mandir=/usr/man
+    sed -i '/^EXTRALIBS/s|$| -lrt|' config.mak
+    make
+    make DESTDIR=$PKG \
+        install
+}
