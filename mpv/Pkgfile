@@ -1,4 +1,4 @@
-# Description: movie player based on MPlayer and mplayer2
+# Description: General Purpose video player based on MPlayer and mplayer2
 # URL:         http://mpv.io
 # Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
 # Depends on:  xorg-libx11 freetype libjpeg libass ffmpeg alsa-lib freetype fribidi docutils glibc
