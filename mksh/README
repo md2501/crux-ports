@@ -1,4 +1,0 @@
-
-README for mksh
-
-Append '/bin/mksh' to /etc/shells in order to use mksh on login
