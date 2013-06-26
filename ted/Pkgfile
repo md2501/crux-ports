@@ -1,0 +1,20 @@
+# Description: an easy rich text processor
+# URL:         http://www.nllgg.nl/ted/
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Depends on:  xorg-libx11 zlib libpcre xorg-libxpm libtiff libjpeg libpng gtk libpaper
+
+name=ted
+version=2.23
+release=1
+source=(http://ftp.nluug.nl/pub/editors/$name/$name-$version.src.tar.gz)
+
+build () {
+    cd "Ted-$version"
+    make -j1
+    make package
+
+    cd $SRC/Ted-$version/tedPackage
+    make DESTDIR=$PKG \
+        install
+    mv $PKG/usr/share/man $PKG/usr
+}
