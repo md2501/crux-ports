@@ -2,6 +2,7 @@ d:libquvi-scripts
 d:sxiv
 d:xssstate
 d:xsel
+d:ted
 d:sxhkd
 d:abcde
 d:crawl-tiles
@@ -13,6 +14,7 @@ d:gsimplecal
 d:mpv
 d:libass
 d:slock
+d:libpaper
 d:wmname
 d:libquvi
 d:quvi
@@ -40,6 +42,9 @@ f:6d10584ba71c49e518eccc749223e03f:xssstate/Pkgfile
 f:b0913a2936786a785f9a40cc4da98714:xsel/.footprint
 f:874f8edd12d51fd6dece83a0834e4728:xsel/.md5sum
 f:c30ad0f468aed0b0defcb3eb2f45417e:xsel/Pkgfile
+f:06de0fff834a68fbd3fed3ba08b3d005:ted/.footprint
+f:4048cc1c449a829e886072266c16450b:ted/.md5sum
+f:0fb3141b95f908e071026777905de5e7:ted/Pkgfile
 f:e6d8ef571dbec3d83830ecab87307017:sxhkd/.footprint
 f:bce1dc983974e9cb7185fb2177fdbf2f:sxhkd/.md5sum
 f:884ee3c2715830774065cc5ee5e1cf8e:sxhkd/Pkgfile
@@ -77,6 +82,9 @@ f:71491f268614b0c7026079ea086b2d99:libass/Pkgfile
 f:c612b3505dd09abd7d7438341488a46c:slock/.footprint
 f:7c86caea9a4a670d23dd78b552db73cf:slock/.md5sum
 f:cdbe38c76e485a1e97fcf61247a516f2:slock/Pkgfile
+f:aa39db724ffd69f89ff5601a4393c105:libpaper/.footprint
+f:e9295dcf4313d407059f3d7a48b5f42c:libpaper/.md5sum
+f:84ad3caf1a32c3310de752e6aca5bb76:libpaper/Pkgfile
 f:c737aa5ed9dbfaab485dc6b479225cd5:wmname/.footprint
 f:120826cc34159b795735b017b44085a8:wmname/.md5sum
 f:a81d1a3d8cf5160c343450618d106fdd:wmname/Pkgfile
