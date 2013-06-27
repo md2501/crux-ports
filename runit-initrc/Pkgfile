@@ -1,0 +1,41 @@
+# Description: sysvinit and rc minus the parts useless with runit
+# URL:         https://savannah.nongnu.org/projects/sysvinit/
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends:     runit
+
+name=runit-initrc
+version=2.88
+release=1
+source=(http://download.savannah.gnu.org/releases/sysvinit/sysvinit-${version}dsf.tar.bz2)
+
+build() {
+    cd sysvinit-${version}dsf
+
+    make
+    make ROOT=$PKG MANDIR=/usr/man install
+
+    # unneeded
+    rm $PKG/bin/mountpoint
+    rm $PKG/usr/bin/utmpdump
+    rm -rf $PKG/usr/include
+    rm $PKG/sbin/{init,telinit,runlevel,shutdown}
+    rm $PKG/usr/man/man1/{mountpoint,utmpdump}.1
+    rm $PKG/usr/man/man5/{initscript,inittab}.5
+    rm $PKG/usr/man/man8/{telinit,init,runlevel,shutdown}.8
+
+    install -d $PKG/var/log
+    touch $PKG/var/log/wtmp
+    touch $PKG/var/log/btmp
+    chmod 0600 $PKG/var/log/btmp
+
+    # create some stuff from rc
+    mkdir -p $PKG/var/log $PKG/var/lib/urandom
+    touch $PKG/var/log/boot $PKG/var/lib/urandom/seed
+    chmod 640 $PKG/var/log/boot $PKG/var/lib/urandom/seed
+
+    # create symlinks to runit-init
+    ln -s /sbin/runit-init $PKG/sbin/init
+    ln -s /sbin/runit-init $PKG/sbin/telinit
+    ln -s /usr/man/man8/runit-init.8 $PKG/usr/man/man8/telinit.8
+    ln -s /usr/man/man8/runit-init.8 $PKG/usr/man/man8/init.8
+}

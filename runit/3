@@ -1,0 +1,45 @@
+#!/bin/sh
+exec 2>&1
+
+PATH=/command:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Set linefeed mode to avoid staircase effect
+/bin/stty onlcr
+
+# net loopback
+/sbin/ip link set lo down
+/sbin/ip addr del 127.0.0.1/8 dev lo
+
+echo 'Waiting for services to stop...'
+#sv hup /service/getty-*  # uncomment this if ttys don't come down in time
+sv force-stop /service/*
+sv exit /service/*
+
+echo 'Shutdown...'
+
+# Terminate all processes
+/sbin/killall5 -15
+/bin/sleep 5
+/sbin/killall5 -9
+
+# Save random seed
+/bin/dd if=/dev/urandom of=/var/lib/urandom/seed count=1 2> /dev/null
+
+# Save system clock
+/sbin/hwclock --systohc
+
+# utmp
+/sbin/halt -w
+
+# Turn off swap
+/sbin/swapoff -a
+
+# Unmount file systems
+/bin/umount -a -d -r -t nosysfs,noproc,nodevtmpfs
+if [ -x /sbin/lvm ]; then
+	/sbin/vgchange --ignorelockingfailure -a n
+fi
+/bin/umount -a -r
+
+# Remount root filesystem read-only
+/bin/mount -o remount,ro /

@@ -1,0 +1,63 @@
+# Description: a UNIX init scheme with service supervision
+# URL:         http://smarden.org/runit/
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  bash util-linux
+
+name=runit
+version=2.1.1
+release=1
+source=(http://smarden.org/$name/$name-$version.tar.gz 1 2 3 sv.tar.gz)
+
+build () {
+    cd "admin/$name-$version/src"
+
+    # configure
+    # we build nothing static
+    sed -i -e 's:-static: :' Makefile || return 1
+    # apply custom CFLAGS and LDFLAGS
+    echo "${CC:-gcc} $CFLAGS" > conf-cc || return 1
+    echo "${CC:-gcc -s} $LDFLAGS" > conf-ld || return 1
+
+    make
+    make check
+
+    # set up runit-init
+    mkdir -p $PKG/etc/runit
+    install -m0755 $SRC/[123] $PKG/etc/runit || return 1
+    install -m0755 $SRC/admin/$name-$version/etc/debian/ctrlaltdel $PKG/etc/runit || return 1
+
+    # install binaries
+    install -d -m0755 $PKG/sbin || return 1
+    for i in `cat $SRC/admin/$name-$version/package/commands`
+    do
+      install -s -m0755 $SRC/admin/$name-$version/src/$i $PKG/sbin || return 1
+    done
+
+    # man-pages
+    install -d -m0755 $PKG/usr/man/man8 || return 1
+    install -m0644 $SRC/admin/$name-$version/man/* $PKG/usr/man/man8 || return 1
+
+    # add default service-directories
+    mkdir -p $PKG/etc/sv/getty-{1,2,3,4,5,6}
+    mkdir -p $PKG/etc/sv/{klogd,syslogd,crond,dhcpcd}
+    svdirs=( $(ls $SRC/sv) )
+    for dir in "${svdirs[@]}"; do
+	    install -m0755 $SRC/sv/$dir/* $PKG/etc/sv/$dir
+    done
+
+    # start default services at boot
+    mkdir -p $PKG/service
+    ln -s /etc/sv/getty-{1,2,3,4,5,6} $PKG/service/
+    ln -s /etc/sv/{klogd,syslogd,crond,dhcpcd} $PKG/service/
+
+    # creat config from /etc/rc.conf
+    if [ -r /etc/rc.conf ]; then
+	grep -e ^FONT -e ^KEYMAP -e ^TIMEZONE -e ^HOSTNAME /etc/rc.conf > $PKG/etc/runit/config
+    else
+	echo "FONT=default\
+KEYMAP=us\
+TIMEZONE=UTC\
+HOSTNAME=host" > $PKG/etc/runit/config
+    fi
+
+}

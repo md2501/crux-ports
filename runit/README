@@ -1,0 +1,17 @@
+The initial configuration is kept as close as possible to the default sysvinit configuration.
+This means by default it starts agetty 1-6, klogd, syslogd, crond and dhcpcd.
+
+To change TIMEZONE, HOSTNAME, FONT or KEYMAP edit /etc/runit/config.
+Services with symlinks in /service, to their respective directories are started at boot.
+
+To change the behaviour of services, edit their run/finish scripts in their service-directories in /etc/sv.
+Create your own service-directories or install the runit-services package for a collection of service-directories for different applications.
+
+To further adjust runit to your needs edit /etc/runit/{1,2,3}.
+/etc/runit/1 contains one-time initialization tasks and the contents of the default /etc/rc and /etc/rc.modules, it also sets up net loopback.
+/etc/runit/2 contains /etc/rc.fix and /etc/rc.local and starts the default services.
+/etc/runit/3 is called at shutdown and is modeled after /etc/rc.shutdown.
+
+To completely replace sysvinit and rc, remove those two packages and install the runit-initrc package.
+
+For further information (for example on how to add runlevels) see: http://smarden.org/runit

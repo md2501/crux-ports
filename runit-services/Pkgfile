@@ -1,0 +1,14 @@
+# Description: A collection of runit service-directories.
+# URL:         http://smarden.org/runit/
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  bash util-linux
+
+name=runit-services
+version=0.1
+release=1
+source=(sv.tar.gz)
+
+build () {
+    mkdir -p $PKG/etc
+    cp -r $SRC/sv $PKG/etc
+}

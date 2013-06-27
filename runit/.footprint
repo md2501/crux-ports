@@ -1,0 +1,67 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/runit/
+-rwxr-xr-x	root/root	etc/runit/1
+-rwxr-xr-x	root/root	etc/runit/2
+-rwxr-xr-x	root/root	etc/runit/3
+-rw-r--r--	root/root	etc/runit/config
+-rwxr-xr-x	root/root	etc/runit/ctrlaltdel
+drwxr-xr-x	root/root	etc/sv/
+drwxr-xr-x	root/root	etc/sv/crond/
+-rwxr-xr-x	root/root	etc/sv/crond/run
+drwxr-xr-x	root/root	etc/sv/dhcpcd/
+-rwxr-xr-x	root/root	etc/sv/dhcpcd/run
+drwxr-xr-x	root/root	etc/sv/getty-1/
+-rwxr-xr-x	root/root	etc/sv/getty-1/finish
+-rwxr-xr-x	root/root	etc/sv/getty-1/run
+drwxr-xr-x	root/root	etc/sv/getty-2/
+-rwxr-xr-x	root/root	etc/sv/getty-2/finish
+-rwxr-xr-x	root/root	etc/sv/getty-2/run
+drwxr-xr-x	root/root	etc/sv/getty-3/
+-rwxr-xr-x	root/root	etc/sv/getty-3/finish
+-rwxr-xr-x	root/root	etc/sv/getty-3/run
+drwxr-xr-x	root/root	etc/sv/getty-4/
+-rwxr-xr-x	root/root	etc/sv/getty-4/finish
+-rwxr-xr-x	root/root	etc/sv/getty-4/run
+drwxr-xr-x	root/root	etc/sv/getty-5/
+-rwxr-xr-x	root/root	etc/sv/getty-5/finish
+-rwxr-xr-x	root/root	etc/sv/getty-5/run
+drwxr-xr-x	root/root	etc/sv/getty-6/
+-rwxr-xr-x	root/root	etc/sv/getty-6/finish
+-rwxr-xr-x	root/root	etc/sv/getty-6/run
+drwxr-xr-x	root/root	etc/sv/klogd/
+-rwxr-xr-x	root/root	etc/sv/klogd/run
+drwxr-xr-x	root/root	etc/sv/syslogd/
+-rwxr-xr-x	root/root	etc/sv/syslogd/run
+drwxr-xr-x	root/root	sbin/
+-rwxr-xr-x	root/root	sbin/chpst
+-rwxr-xr-x	root/root	sbin/runit
+-rwxr-xr-x	root/root	sbin/runit-init
+-rwxr-xr-x	root/root	sbin/runsv
+-rwxr-xr-x	root/root	sbin/runsvchdir
+-rwxr-xr-x	root/root	sbin/runsvdir
+-rwxr-xr-x	root/root	sbin/sv
+-rwxr-xr-x	root/root	sbin/svlogd
+-rwxr-xr-x	root/root	sbin/utmpset
+drwxr-xr-x	root/root	service/
+lrwxrwxrwx	root/root	service/crond -> /etc/sv/crond
+lrwxrwxrwx	root/root	service/dhcpcd -> /etc/sv/dhcpcd
+lrwxrwxrwx	root/root	service/getty-1 -> /etc/sv/getty-1
+lrwxrwxrwx	root/root	service/getty-2 -> /etc/sv/getty-2
+lrwxrwxrwx	root/root	service/getty-3 -> /etc/sv/getty-3
+lrwxrwxrwx	root/root	service/getty-4 -> /etc/sv/getty-4
+lrwxrwxrwx	root/root	service/getty-5 -> /etc/sv/getty-5
+lrwxrwxrwx	root/root	service/getty-6 -> /etc/sv/getty-6
+lrwxrwxrwx	root/root	service/klogd -> /etc/sv/klogd
+lrwxrwxrwx	root/root	service/syslogd -> /etc/sv/syslogd
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/man/
+drwxr-xr-x	root/root	usr/man/man8/
+-rw-r--r--	root/root	usr/man/man8/chpst.8.gz
+-rw-r--r--	root/root	usr/man/man8/runit-init.8.gz
+-rw-r--r--	root/root	usr/man/man8/runit.8.gz
+-rw-r--r--	root/root	usr/man/man8/runsv.8.gz
+-rw-r--r--	root/root	usr/man/man8/runsvchdir.8.gz
+-rw-r--r--	root/root	usr/man/man8/runsvdir.8.gz
+-rw-r--r--	root/root	usr/man/man8/sv.8.gz
+-rw-r--r--	root/root	usr/man/man8/svlogd.8.gz
+-rw-r--r--	root/root	usr/man/man8/utmpset.8.gz

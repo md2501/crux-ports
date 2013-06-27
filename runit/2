@@ -1,0 +1,20 @@
+#!/bin/sh
+
+PATH=/command:/usr/local/bin:/usr/local/sbin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin
+
+# X11 font-related checks
+if [ -d /usr/share/fonts/X11 ]; then
+    for i in `/bin/ls -d /usr/share/fonts/X11/*`; do
+        if [ ! -f $i/fonts.dir ]; then
+            mkfontdir $i &> /dev/null
+            mkfontscale $i &> /dev/null
+        fi
+    done
+fi
+
+if [ -d /var/cache/fontconfig ] && [ -z "`/bin/ls /var/cache/fontconfig/`" ]; then
+    fc-cache &> /dev/null
+fi
+
+exec env - PATH=$PATH \
+runsvdir -P /service 'log: ...........................................................................................................................................................................................................................................................................................................................................................................................................'
