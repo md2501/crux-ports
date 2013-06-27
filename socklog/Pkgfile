@@ -1,0 +1,32 @@
+# Description: small and secure replacement for sysklogd
+# URL:         http://smarden.org/socklog/
+# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Depends on:  runit
+
+name=socklog
+version=2.1.0
+release=1
+source=(http://smarden.org/$name/$name-$version.tar.gz sv.tar.gz)
+
+build () {
+    cd $SRC/admin/$name-$version/src
+    echo "${CC:-gcc} ${CFLAGS:-O2 -Wall}" > conf-cc
+    echo "${LD:-gcc -s}" > conf-ld
+    make || return 1
+
+    install -d $PKG/sbin/
+    install -d $PKG/usr/man/man8
+    install -d $PKG/usr/man/man1
+
+    for i in `cat ../package/commands`; do
+        install -m0755 $i $PKG/sbin/
+    done
+
+    install -m0644 ../man/*.8 $PKG/usr/man/man8
+    install -m0644 ../man/*.1 $PKG/usr/man/man1
+
+    cd $SRC/service/
+    install -d $PKG/etc/sv
+    cp -Rv socklog $PKG/etc/sv
+    cp -Rv klog $PKG/etc/sv
+}
