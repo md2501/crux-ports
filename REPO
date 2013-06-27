@@ -35,9 +35,11 @@ d:st
 f:0e4ac3f4ba8450105a553e1b2f95457f:runit-services/.footprint
 f:7101dd47efefe984493d622d66db1778:runit-services/.md5sum
 f:b7d2c661335f56c3043a19352dd60d9f:runit-services/Pkgfile
+f:cb72fe3daaf366c69494240998472dee:runit-services/sv.tar.gz
 f:32b9df6819e42c0359f4d1079a90daab:socklog/.footprint
 f:b0c5cc3b9bcb0f1631e1d4324d7c4e1f:socklog/.md5sum
 f:2ab604ca1cbed84960a9b29b3859512c:socklog/Pkgfile
+f:3eaaaba05460a8eb7c20745b075da917:socklog/sv.tar.gz
 f:7393ce6d786e7cbfba2a861da2e2a8f1:runit-initrc/.footprint
 f:f67b4f200eec1cfeaf6d0e994661ab11:runit-initrc/.md5sum
 f:cbe5e747526818a92b7fea25cd8ca63c:runit-initrc/Pkgfile
@@ -114,6 +116,7 @@ f:337212360784b365116dc3702695e47d:runit/2
 f:c309229a9841012ccfc39f9e36720538:runit/1
 f:274f8728426fbafc69566a6e230bee6f:runit/README
 f:dbbb76ef6de88c8e4584cbcc98910baa:runit/Pkgfile
+f:50bb26a9697b05597814121eeddafc2c:runit/sv.tar.gz
 f:4978ab77a206262b890100d8288ae141:dwm/.footprint
 f:f2feb14f5a78f43f8f496e20ad4e638d:dwm/.md5sum
 f:2453e037f46449774ec8afab49b4f1a2:dwm/config.h
