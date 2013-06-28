@@ -42,6 +42,7 @@ f:2ab604ca1cbed84960a9b29b3859512c:socklog/Pkgfile
 f:3eaaaba05460a8eb7c20745b075da917:socklog/sv.tar.gz
 f:7393ce6d786e7cbfba2a861da2e2a8f1:runit-initrc/.footprint
 f:f67b4f200eec1cfeaf6d0e994661ab11:runit-initrc/.md5sum
+f:ddd0cdf22747a5a867698b9f63035aeb:runit-initrc/README
 f:cbe5e747526818a92b7fea25cd8ca63c:runit-initrc/Pkgfile
 f:3f2d2e4c4903123fa1d546ce61de238a:libquvi-scripts/.footprint
 f:02bd13bcf867da76da57bc748e93fe47:libquvi-scripts/.md5sum

@@ -1,0 +1,1 @@
+Use `/sbin/runit-init 0' to shut down and `/sbin/runit-init 6' to reboot the system.
