@@ -8,7 +8,7 @@
 name=hostsblock
 version=0.12.3
 release=1
-source=(https://aur.archlinux.org/packages/ho/$name/$name.tar.gz)
+source=(https://raw.github.com/gaenserich/$name/master/$name-$version-1.src.tar.gz)
 
 build () {
     cd "$name"

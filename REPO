@@ -150,9 +150,9 @@ f:41107e5e84a8572f70d6cb111b4e07f8:dvtm/config.h
 f:d18c362b4002324b1a9d086ab1cba9bd:dvtm/README
 f:892eee105d6968b2b06ebeacfa1038b3:dvtm/Pkgfile
 f:8af90118f55987e429926e27379489be:hostsblock/.footprint
-f:cb5342e4a1899d0897b644fd753e2f86:hostsblock/.md5sum
+f:c54e7b65889461505844ec7a9445a421:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
-f:7e155c7c7c628c726222eb81296d0723:hostsblock/Pkgfile
+f:dc534f7029718e3bf1fb55c7230ec413:hostsblock/Pkgfile
 f:388dbab9299b75ab51e07bcdb615e798:st/.footprint
 f:5ba11c465e55375a47f2aab914d99a4b:st/.md5sum
 f:064452f1bc460ad9199c045a76d3710a:st/config.h
