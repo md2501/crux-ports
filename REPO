@@ -21,6 +21,7 @@ d:libpaper
 d:wmname
 d:libquvi
 d:quvi
+d:dtach
 d:runit
 d:dwm
 d:cd-discid
@@ -110,6 +111,9 @@ f:5a5a69700a465f19da84c3f563c3619f:libquvi/Pkgfile
 f:5652a26bfd099c2bba7d8034783826bd:quvi/.footprint
 f:054944cb4264f460a75e52eedbf05f7f:quvi/.md5sum
 f:5f3d08527f1c5dd65ab033fd6c1b1a51:quvi/Pkgfile
+f:9a5a46c6f660a471443b2c3dbf96921c:dtach/.footprint
+f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
+f:1dcd3c807700d0c47977462f39b19dd5:dtach/Pkgfile
 f:9005ab63de9107f371bb139ff07f4905:runit/.footprint
 f:6bf4951190511aac2fcd2a630a196651:runit/.md5sum
 f:3a5eaa48921d3d0fafa5abc3b90f4e53:runit/3
