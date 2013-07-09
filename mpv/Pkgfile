@@ -1,13 +1,13 @@
 # Description: General Purpose video player based on MPlayer and mplayer2
 # URL:         http://mpv.io
 # Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
-# Depends on:  xorg-libx11 freetype libjpeg libass ffmpeg alsa-lib freetype fribidi docutils glibc
+# Depends on:  xorg-libx11 freetype libjpeg libass ffmpeg alsa-lib freetype fribidi docutils zlib
 # Nice to have: libquvi
 
 name=mpv
 version=2013-07-07
 commit=f2ad12a8199013645e9e6a69ea7c5d25ad4c3d61
-release=1
+release=2
 source=(https://github.com/$name-player/$name/archive/$commit.zip)
 
 build () {
