@@ -1,0 +1,16 @@
+# Description: ncurses based real time strategy game
+# URL:         https://github.com/a-nikolaev/curseofwar/wiki
+# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Depends on:  ncurses
+
+name=curseofwar
+version=1.1.2
+release=1
+source=(https://github.com/a-nikolaev/$name/archive/v$version.tar.gz)
+
+build () {
+    cd "$name-$version"
+    make
+    make DESTDIR=$PKG \
+        install
+}
