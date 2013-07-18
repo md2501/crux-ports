@@ -4,7 +4,7 @@
 # Depends on:  ncurses
 
 name=curseofwar
-version=1.1.3
+version=1.1.4
 release=1
 source=(https://github.com/a-nikolaev/$name/archive/v$version.tar.gz)
 
@@ -12,5 +12,6 @@ build () {
     cd "$name-$version"
     make
     make DESTDIR=$PKG \
+	 MANPREFIX=$PKG/usr/man \
         install
 }
