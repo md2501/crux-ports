@@ -4,7 +4,7 @@
 # Depends on:  ncurses
 
 name=curseofwar
-version=1.1.6
+version=1.1.7
 release=1
 source=(https://github.com/a-nikolaev/$name/archive/v$version.tar.gz)
 
