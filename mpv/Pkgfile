@@ -5,8 +5,8 @@
 # Nice to have: libquvi
 
 name=mpv
-version=2013-07-19
-commit=d0b129971a934bf499c478ea52fcd6051713ae19
+version=2013-07-22
+commit=78ebb3c6fa637206bb369349ba93328b36895e2b
 release=1
 source=(https://github.com/$name-player/$name/archive/$commit.zip)
 
