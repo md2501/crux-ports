@@ -81,10 +81,6 @@ f:e2ce789e0a86ee5428f8565527414a20:mksh/.footprint
 f:4f55c46143e4a42ab26ed9745c3dcda0:mksh/.md5sum
 f:3f5085cc9a25a7bfd28d5511e960372d:mksh/post-install
 f:319441ee3f8df30ff689671223429bae:mksh/Pkgfile
-f:7993940f2af953bfaeee29c80afdeb17:distfiles/mpv-2013-07-25.tar.gz
-f:3eaaaba05460a8eb7c20745b075da917:distfiles/socklog-sv-2.1.0-1.tar.gz
-f:50bb26a9697b05597814121eeddafc2c:distfiles/runit-sv-2.1.1-1.tar.gz
-f:cb72fe3daaf366c69494240998472dee:distfiles/runit-services-sv-0.1-1.tar.gz
 f:c69833a56c10104a61fc4e46aeaa3d3b:tabbed/.footprint
 f:a38d37150087999eae0f28f6969d1b7b:tabbed/.md5sum
 f:cea7b04d4f67d917c68673cd0e63ae32:tabbed/config.h
