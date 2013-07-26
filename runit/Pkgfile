@@ -5,7 +5,7 @@
 
 name=runit
 version=2.1.1
-release=1
+release=2
 source=(http://smarden.org/$name/$name-$version.tar.gz 1 2 3
 	https://raw.github.com/Doomicide/crux-ports/master/distfiles/$name-sv-$version-$release.tar.gz)
 
@@ -55,10 +55,10 @@ build () {
     if [ -r /etc/rc.conf ]; then
 	grep -e ^FONT -e ^KEYMAP -e ^TIMEZONE -e ^HOSTNAME /etc/rc.conf > $PKG/etc/runit/config
     else
-	echo "FONT=default\
-KEYMAP=us\
-TIMEZONE=UTC\
-HOSTNAME=host" > $PKG/etc/runit/config
+	echo "FONT=default" >   $PKG/etc/runit/config
+	echo "KEYMAP=us" >>     $PKG/etc/runit/config
+	echo "TIMEZONE=UTC" >>  $PKG/etc/runit/config
+	echo "HOSTNAME=host" >> $PKG/etc/runit/config
     fi
 
 }
