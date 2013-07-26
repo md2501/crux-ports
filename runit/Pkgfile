@@ -6,7 +6,8 @@
 name=runit
 version=2.1.1
 release=1
-source=(http://smarden.org/$name/$name-$version.tar.gz 1 2 3 sv.tar.gz)
+source=(http://smarden.org/$name/$name-$version.tar.gz 1 2 3
+	https://raw.github.com/Doomicide/crux-ports/master/distfiles/$name-sv-$version-$release.tar.gz)
 
 build () {
     cd "admin/$name-$version/src"

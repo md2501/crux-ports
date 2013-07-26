@@ -6,7 +6,8 @@
 name=socklog
 version=2.1.0
 release=1
-source=(http://smarden.org/$name/$name-$version.tar.gz sv.tar.gz)
+source=(http://smarden.org/$name/$name-$version.tar.gz
+	https://raw.github.com/Doomicide/crux-ports/master/distfiles/$name-sv-$version-$release.tar.gz)
 
 build () {
     cd $SRC/admin/$name-$version/src

@@ -6,7 +6,7 @@
 name=runit-services
 version=0.1
 release=1
-source=(sv.tar.gz)
+source=(https://raw.github.com/Doomicide/crux-ports/master/distfiles/$name-sv-$version-$release.tar.gz)
 
 build () {
     mkdir -p $PKG/etc
