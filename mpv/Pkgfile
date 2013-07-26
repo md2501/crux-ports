@@ -5,14 +5,12 @@
 # Nice to have: libquvi
 
 name=mpv
-version=2013-07-22
-commit=78ebb3c6fa637206bb369349ba93328b36895e2b
+version=2013-07-25
 release=1
-source=(https://github.com/$name-player/$name/archive/$commit.zip)
+source=(https://raw.github.com/Doomicide/crux-ports/master/distfiles/$name-$version.tar.gz)
 
 build () {
-    cd "$name-$commit"
-    chmod +x configure version.sh TOOLS/*
+    cd "$name-$version"
     ./configure --prefix=/usr --mandir=/usr/man
     make
     make DESTDIR=$PKG \
