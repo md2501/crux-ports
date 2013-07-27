@@ -129,8 +129,10 @@ f:ee0e399e784beda4e3bf657b9b564d53:cd-discid/.footprint
 f:fc461f8392324711c4411371d3040b66:cd-discid/.md5sum
 f:3cddc9420b471295e4726c89b52957ce:cd-discid/Pkgfile
 f:34560e1f82501b67f7d1bb0dab36ffd4:curseofwar/.footprint
-f:28d292bcb71a9d06939551cb9fc84def:curseofwar/.md5sum
-f:6e0b0940274d14653038fa24d78cdc06:curseofwar/Pkgfile
+f:a963af04ce24af7f92028607daf25da7:curseofwar/curseofwar#1.1.8-1.pkg.tar.gz
+f:3b4b80e9693e7d114fa83bc20286dacd:curseofwar/.md5sum
+f:de9d6c5ba360e05c71480b86bae425e5:curseofwar/Pkgfile
+f:8aac76e21c81adc72b9852868535e1e0:curseofwar/v1.1.8.tar.gz
 f:d35e08aff7339d57dfeb7de473965f64:lsw/.footprint
 f:493e9dccef0f974e32fd9997c3f2e88e:lsw/.md5sum
 f:bbf39a2d4ee8367471faa8432d7e763d:lsw/Pkgfile
