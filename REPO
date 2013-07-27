@@ -114,12 +114,12 @@ f:9a5a46c6f660a471443b2c3dbf96921c:dtach/.footprint
 f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
 f:1dcd3c807700d0c47977462f39b19dd5:dtach/Pkgfile
 f:9005ab63de9107f371bb139ff07f4905:runit/.footprint
-f:27b45dc6df2ec6dd702e267e9ac3869f:runit/.md5sum
-f:3a5eaa48921d3d0fafa5abc3b90f4e53:runit/3
+f:b435f07e40e5fa6bd5850ed3cf3d9c01:runit/.md5sum
+f:3f2f2a535dc364bf62aa6012c218aa4f:runit/3
 f:337212360784b365116dc3702695e47d:runit/2
 f:c309229a9841012ccfc39f9e36720538:runit/1
 f:274f8728426fbafc69566a6e230bee6f:runit/README
-f:84f71cde88b6798682a502ec73463143:runit/Pkgfile
+f:67b444ee88c5d2e97672786650be5baa:runit/Pkgfile
 f:4978ab77a206262b890100d8288ae141:dwm/.footprint
 f:f2feb14f5a78f43f8f496e20ad4e638d:dwm/.md5sum
 f:2453e037f46449774ec8afab49b4f1a2:dwm/config.h

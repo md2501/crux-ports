@@ -3,6 +3,13 @@ exec 2>&1
 
 PATH=/command:/sbin:/bin:/usr/sbin:/usr/bin
 
+if [ -x /etc/runit/reboot ]
+then
+ export RUNLEVEL=6
+else
+ export RUNLEVEL=0
+fi
+
 # Set linefeed mode to avoid staircase effect
 /bin/stty onlcr
 
@@ -43,3 +50,10 @@ fi
 
 # Remount root filesystem read-only
 /bin/mount -o remount,ro /
+
+# Power off or reboot
+if [ "$RUNLEVEL" = "0" ]; then
+	/sbin/poweroff -d -f -i
+else
+	/sbin/reboot -d -f -i
+fi
