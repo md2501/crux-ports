@@ -5,7 +5,7 @@
 # Nice to have: libquvi
 
 name=mpv
-version=2013-07-25
+version=2013-07-28
 release=1
 source=(https://raw.github.com/Doomicide/crux-ports/master/distfiles/$name-$version.tar.gz)
 
