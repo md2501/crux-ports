@@ -5,9 +5,9 @@
 # Depends on: 
 
 name=kwakd
-version=0.3
+version=0.4
 release=1
-source=(https://kwakd.googlecode.com/files/kwakd-0.3.tgz kwakd)
+source=(https://$name.googlecode.com/files/$name-$version.tar.gz $name)
 
 build () {
     cd "$name-$version"
