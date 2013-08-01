@@ -15,7 +15,6 @@ d:mksh
 d:tabbed
 d:gsimplecal
 d:mpv
-d:libass
 d:slock
 d:libpaper
 d:wmname
@@ -92,9 +91,6 @@ f:9413bc929d01853e008c5b79597b975e:gsimplecal/Pkgfile
 f:d9c01b760f4c8b6458f3d7634a1b990e:mpv/.footprint
 f:404cfd200a861ff4ba78c972ee25cc1d:mpv/.md5sum
 f:5dd235ba885d7137bbb7baf0fa4f48e4:mpv/Pkgfile
-f:c9230cd355af8b7c37b1c66f1cbcdc28:libass/.footprint
-f:9c6771c9839621ace438adb67e5c4860:libass/.md5sum
-f:71491f268614b0c7026079ea086b2d99:libass/Pkgfile
 f:c612b3505dd09abd7d7438341488a46c:slock/.footprint
 f:7c86caea9a4a670d23dd78b552db73cf:slock/.md5sum
 f:cdbe38c76e485a1e97fcf61247a516f2:slock/Pkgfile
