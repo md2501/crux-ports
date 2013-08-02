@@ -43,9 +43,11 @@ f:7393ce6d786e7cbfba2a861da2e2a8f1:runit-initrc/.footprint
 f:f67b4f200eec1cfeaf6d0e994661ab11:runit-initrc/.md5sum
 f:ddd0cdf22747a5a867698b9f63035aeb:runit-initrc/README
 f:cbe5e747526818a92b7fea25cd8ca63c:runit-initrc/Pkgfile
-f:3f2d2e4c4903123fa1d546ce61de238a:libquvi-scripts/.footprint
+f:15a3bb9c9479121ea0d2a269c0cc3d2d:libquvi-scripts/.footprint
 f:02bd13bcf867da76da57bc748e93fe47:libquvi-scripts/.md5sum
-f:d4e2c25204b4eeefbb543eb884b72bb5:libquvi-scripts/Pkgfile
+f:693f9ebce64485367e29db07d11e4edf:libquvi-scripts/libquvi-scripts-0.4.16.tar.xz
+f:fab36ca62e7c7accf049209d5c526fed:libquvi-scripts/libquvi-scripts#0.4.16-1.pkg.tar.gz
+f:1b596d9a389b1014e8cab75087e7999a:libquvi-scripts/Pkgfile
 f:c75e648280fdca72aab8c5d6dab5fc66:sxiv/.footprint
 f:07975e9d8db5b8b13c45a04b9a15e846:sxiv/.md5sum
 f:53729e7dfba3c12b26fc8359d56523a2:sxiv/config.h
