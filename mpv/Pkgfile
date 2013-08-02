@@ -5,23 +5,16 @@
 # Nice to have: libquvi libdvdread
 
 name=mpv
-version=2013-07-31
-release=2
+version=2013-08-02
+release=1
 source=(https://raw.github.com/Doomicide/crux-ports/master/distfiles/$name-$version.tar.gz)
 
 build () {
 	cd "$name-$version"
 
-	# contrib's libdvdread is too old to be detected automatically
-	if [[ ! -z $(pkg-config --list-all | grep dvdread) ]]; then
-		dvdsupport="--extra-libs=-ldvdread --extra-cflags=-I/usr/include/dvdread --enable-dvdread"
-	else
-		dvdsupport=""
-	
-	fi
 	# custom CFLAGS LDFLAGS might break the build
 	unset CFLAGS LDFLAGS
-	./configure --prefix=/usr --mandir=/usr/man $dvdsupport
+	./configure --prefix=/usr --mandir=/usr/man
 	
 	make
 	make DESTDIR=$PKG \
