@@ -5,7 +5,7 @@
 # Depends on: 
 
 name=kwakd
-version=0.4
+version=0.5
 release=1
 source=(https://$name.googlecode.com/files/$name-$version.tar.gz $name)
 

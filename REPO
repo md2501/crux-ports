@@ -73,9 +73,9 @@ f:21096e491efc265e8b1048d811684cb2:sic/.footprint
 f:03f4d4f4a9195e2c8040be88a2dffeff:sic/.md5sum
 f:5921775b0ea70deea76b45337279e5a6:sic/Pkgfile
 f:1bfe2443285cd4e56ee72d803eb3756c:kwakd/.footprint
-f:706a5c2582046e811b4f02713f028b1b:kwakd/.md5sum
+f:4a05674ed54aba5de52194955e3072f5:kwakd/.md5sum
 f:e1ce068ebc3dee200f27fac6a413f7c7:kwakd/kwakd
-f:d9d10e203f3a5af7071243d55f34110b:kwakd/Pkgfile
+f:55a16100c9bd7a2fe2a95731eb786dd1:kwakd/Pkgfile
 f:e2ce789e0a86ee5428f8565527414a20:mksh/.footprint
 f:4f55c46143e4a42ab26ed9745c3dcda0:mksh/.md5sum
 f:3f5085cc9a25a7bfd28d5511e960372d:mksh/post-install
