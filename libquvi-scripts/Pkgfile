@@ -4,8 +4,8 @@
 # Depends on:  curl lua
 
 name=libquvi-scripts
-version=0.4.16
-release=2
+version=0.4.17
+release=1
 source=(http://downloads.sourceforge.net/sourceforge/quvi/$name-$version.tar.xz)
 
 build () {
