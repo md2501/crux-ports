@@ -1,7 +1,7 @@
 # Description: A program that emulates the detach feature of screen
 # URL:         http://dtach.sourceforge.net
 # Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
-# Depends on:
+# Depends on:  glibc 
 
 name=dtach
 version=0.8

@@ -105,10 +105,10 @@ f:ea9e8123784faa6b10aaa0b0b30962e6:libquvi/.md5sum
 f:5a5a69700a465f19da84c3f563c3619f:libquvi/Pkgfile
 f:5652a26bfd099c2bba7d8034783826bd:quvi/.footprint
 f:054944cb4264f460a75e52eedbf05f7f:quvi/.md5sum
-f:5f3d08527f1c5dd65ab033fd6c1b1a51:quvi/Pkgfile
+f:f7921b30e6ad9bd0bf06becccbd19cd3:quvi/Pkgfile
 f:9a5a46c6f660a471443b2c3dbf96921c:dtach/.footprint
 f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
-f:1dcd3c807700d0c47977462f39b19dd5:dtach/Pkgfile
+f:94ffbf8ea9b556288a9d72b058f48fe1:dtach/Pkgfile
 f:9005ab63de9107f371bb139ff07f4905:runit/.footprint
 f:3153131a36a1dbc5bdec319113204f0b:runit/.md5sum
 f:3a5eaa48921d3d0fafa5abc3b90f4e53:runit/3
@@ -123,7 +123,7 @@ f:3be8f48239d40fb0ad8bfe854ed9c250:dwm/README
 f:2b3469fb676053fdd734490c3be86f81:dwm/Pkgfile
 f:ee0e399e784beda4e3bf657b9b564d53:cd-discid/.footprint
 f:fc461f8392324711c4411371d3040b66:cd-discid/.md5sum
-f:3cddc9420b471295e4726c89b52957ce:cd-discid/Pkgfile
+f:30ffe8c2a6be0bcc64e1af2b95e83cb7:cd-discid/Pkgfile
 f:34560e1f82501b67f7d1bb0dab36ffd4:curseofwar/.footprint
 f:3b4b80e9693e7d114fa83bc20286dacd:curseofwar/.md5sum
 f:de9d6c5ba360e05c71480b86bae425e5:curseofwar/Pkgfile
