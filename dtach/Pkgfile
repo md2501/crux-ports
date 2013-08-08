@@ -1,6 +1,6 @@
 # Description: A program that emulates the detach feature of screen
 # URL:         http://dtach.sourceforge.net
-# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on:
 
 name=dtach

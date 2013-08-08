@@ -1,6 +1,6 @@
 # Description: A simple tool to retrieve the X screensaver state.
 # URL:         http://tools.suckless.org/xssstate
-# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on:  xorg-libx11
 
 name=xssstate

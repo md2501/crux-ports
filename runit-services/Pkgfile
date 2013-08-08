@@ -1,6 +1,6 @@
 # Description: A collection of runit service-directories.
 # URL:         http://smarden.org/runit/
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on:  bash util-linux
 
 name=runit-services

@@ -1,6 +1,6 @@
 # Description: ncurses based real time strategy game
 # URL:         https://github.com/a-nikolaev/curseofwar/wiki
-# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on:  ncurses
 
 name=curseofwar

@@ -1,6 +1,6 @@
 # Description: simple/suckless image-viewer
 # URL:         https://github.com/muennich/sxiv.html 
-# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on:  imlib2
 
 name=sxiv

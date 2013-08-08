@@ -1,6 +1,6 @@
 # Description: Backend utility to get cddb information
 # URL:         http://lly.org/~rcw/cd-discid/
-# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on:
 
 name=cd-discid

@@ -1,7 +1,7 @@
 # Description: tiny web server serving blank html pages
 # URL:         https://code.google.com/p/kwakd/
-# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
-# Packager:    Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Packager:    Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on: 
 
 name=kwakd

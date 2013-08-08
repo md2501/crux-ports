@@ -1,6 +1,6 @@
 # Description: simple terminal implementation for X
 # URL:         http://st.suckless.org/
-# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on:  xorg-libxex xorg-libxft
 
 name=st

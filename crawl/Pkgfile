@@ -1,7 +1,7 @@
 # Description: Dungeon Crawl Stone Soup is a singleplayer roguelike game
 # URL:         http://crawl.develz.org/
-# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
-# Packager:    Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Packager:    Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on:  ncurses
 
 name=crawl

@@ -1,6 +1,6 @@
 # Description: sysvinit and rc minus the parts useless with runit
 # URL:         https://savannah.nongnu.org/projects/sysvinit/
-# Maintainer:  Maximilian Dietrich, dm <at> archlinux <dot> info
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends:     runit
 
 name=runit-initrc

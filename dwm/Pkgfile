@@ -1,6 +1,6 @@
 # Description: dynamic window manager
 # URL:         http://dwm.suckless.org/
-# Maintainer:  Maximilian Dietrich, dxm <at> lavabit <dot> com
+# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
 # Depends on:  xorg-libx11 xorg-libxinerama
 
 name=dwm
