@@ -5,9 +5,9 @@
 # Nice to have: libquvi libdvdread
 
 name=mpv
-version=20130805-57ec67a6cc
+version=0.1.0
 release=1
-source=(https://raw.github.com/Doomicide/crux-ports/master/distfiles/$name-$version.tar.gz)
+source=(https://github.com/$name-player/$name/archive/v$version.tar.gz)
 
 build () {
 	cd "$name-$version"
