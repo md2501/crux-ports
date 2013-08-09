@@ -1,11 +1,11 @@
 # Description: A simple tool to retrieve the X screensaver state.
 # URL:         http://tools.suckless.org/xssstate
 # Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
-# Depends on:  xorg-libx11
+# Depends on:  xorg-libx11 xorg-libxscrnsaver
 
 name=xssstate
 version=1.1
-release=1
+release=2
 source=(http://dl.suckless.org/tools/$name-$version.tar.gz)
 
 build () {
