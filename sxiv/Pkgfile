@@ -5,8 +5,8 @@
 
 name=sxiv
 version=1.1.1
-release=1
-source=(https://github.com/muennich/$name/archive/v$version.zip config.h)
+release=2
+source=(https://github.com/muennich/$name/archive/v$version.tar.gz config.h)
 
 build () {
     cd "$name-$version"

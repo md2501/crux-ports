@@ -47,10 +47,10 @@ f:38035a95f0410529ad76ae69f0e605fe:libquvi-scripts/.footprint
 f:f6d68f75f510490377a4a6dc0b58e6b4:libquvi-scripts/.md5sum
 f:9548aaa806eb98e62e96bf9e243454d0:libquvi-scripts/Pkgfile
 f:c75e648280fdca72aab8c5d6dab5fc66:sxiv/.footprint
-f:07975e9d8db5b8b13c45a04b9a15e846:sxiv/.md5sum
+f:497d7eba1d974e0c737d5fe78c69c3aa:sxiv/.md5sum
 f:53729e7dfba3c12b26fc8359d56523a2:sxiv/config.h
 f:8ea580268f424b4e8fe936001891f8d5:sxiv/README
-f:b0d4d3000fb8840b202bcaf98766fafa:sxiv/Pkgfile
+f:053de140026494d42831a7714163d56d:sxiv/Pkgfile
 f:54171ce7175b452a5724ad21e8545641:xssstate/.footprint
 f:5532da1e78e9d798430fdee510342f30:xssstate/.md5sum
 f:bbc68aefea07cb425e68a233407d848e:xssstate/Pkgfile
