@@ -1,6 +1,6 @@
 # Description: extremely simple IRC client
 # URL:         http://tools.suckless.org/sic
-# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Depends on:
 
 name=sic

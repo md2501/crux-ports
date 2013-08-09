@@ -1,6 +1,6 @@
 # Description: small and secure replacement for sysklogd
 # URL:         http://smarden.org/socklog/
-# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Depends on:  runit
 
 name=socklog

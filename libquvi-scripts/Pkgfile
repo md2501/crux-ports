@@ -1,6 +1,6 @@
 # Description: Library for parsing video download links. - Scripts
 # URL:         http://quvi.sourceforge.net/
-# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Depends on:  curl lua
 
 name=libquvi-scripts

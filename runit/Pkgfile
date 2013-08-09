@@ -1,6 +1,6 @@
 # Description: a UNIX init scheme with service supervision
 # URL:         http://smarden.org/runit/
-# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Depends on:  bash util-linux
 
 name=runit

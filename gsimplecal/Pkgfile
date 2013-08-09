@@ -1,7 +1,7 @@
 # Description: Simple and lightweight GTK calendar
 # URL:         http://dmedvinsky.github.com/gsimplecal
-# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
-# Packager:    Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
+# Packager:    Maximilian Dietrich, dxm at openmailbox dot org
 # Depends on:  gtk
 
 name=gsimplecal

@@ -1,6 +1,6 @@
 # Description: General Purpose video player based on MPlayer and mplayer2
 # URL:         http://mpv.io
-# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Depends on:  xorg-libx11 libjpeg libass ffmpeg alsa-lib freetype fribidi docutils zlib
 # Nice to have: libquvi libdvdread
 

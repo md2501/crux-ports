@@ -1,6 +1,6 @@
 # Description: a better cd encoder
 # URL:         http://code.google.com/p/abcde
-# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Depends on:  bash cd-discid wget vorbis-tools
 
 name=abcde

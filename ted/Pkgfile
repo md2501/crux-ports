@@ -1,6 +1,6 @@
 # Description: an easy rich text processor
 # URL:         http://www.nllgg.nl/ted/
-# Maintainer:  Maximilian Dietrich, dxm <at> openmailbox <dot> org
+# Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Depends on:  xorg-libx11 zlib libpcre xorg-libxpm libtiff libjpeg libpng gtk libpaper
 
 name=ted
