@@ -2,7 +2,7 @@
 # URL:         http://crawl.develz.org/
 # Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Packager:    Maximilian Dietrich, dxm at openmailbox dot org
-# Depends on:  sdl_image libpng freetype libsdl xorg-font-dejavu-ttf
+# Depends on:  sdl_image xorg-font-dejavu-ttf
 
 name=crawl-tiles
 version=0.12.0

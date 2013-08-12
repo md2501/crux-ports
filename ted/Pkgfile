@@ -1,11 +1,11 @@
 # Description: an easy rich text processor
 # URL:         http://www.nllgg.nl/ted/
 # Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
-# Depends on:  xorg-libx11 zlib libpcre xorg-libxpm libtiff libjpeg libpng gtk libpaper
+# Depends on:  xorg-libxpm gtk libpaper
 
 name=ted
 version=2.23
-release=1
+release=2
 source=(http://ftp.nluug.nl/pub/editors/$name/$name-$version.src.tar.gz)
 
 build () {
@@ -16,5 +16,6 @@ build () {
     cd $SRC/Ted-$version/tedPackage
     make DESTDIR=$PKG \
         install
+    rm $PKG/usr/share/Ted/varia/README
     mv $PKG/usr/share/man $PKG/usr
 }

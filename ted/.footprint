@@ -72,7 +72,6 @@ drwxr-xr-x	root/root	usr/share/Ted/ps/
 -rw-r--r--	root/root	usr/share/Ted/ps/gslibpath.ps
 -rw-r--r--	root/root	usr/share/Ted/ps/gslsfonts.ps
 drwxr-xr-x	root/root	usr/share/Ted/varia/
--rw-r--r--	root/root	usr/share/Ted/varia/README
 -rw-r--r--	root/root	usr/share/Ted/varia/Ted.desktop
 -rw-r--r--	root/root	usr/share/Ted/varia/Ted.mailcap
 -rw-r--r--	root/root	usr/share/Ted/varia/base35.fonts.conf
