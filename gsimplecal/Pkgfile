@@ -2,7 +2,7 @@
 # URL:         http://dmedvinsky.github.com/gsimplecal
 # Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Packager:    Maximilian Dietrich, dxm at openmailbox dot org
-# Depends on:  gtk
+# Depends on:  gtk xorg-libxdamage
 
 name=gsimplecal
 version=1.6
@@ -10,7 +10,7 @@ release=1
 source=(https://github.com/downloads/dmedvinsky/$name/$name-$version.tar.gz)
 
 build () {
-    cd "$name-$version"
+    cd $name-$version
     ./configure --prefix=/usr --mandir=/usr/man
     make
     make DESTDIR=$PKG \

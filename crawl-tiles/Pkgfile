@@ -2,7 +2,7 @@
 # URL:         http://crawl.develz.org/
 # Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
 # Packager:    Maximilian Dietrich, dxm at openmailbox dot org
-# Depends on:  sdl_image xorg-font-dejavu-ttf
+# Depends on:  sdl_image xorg-font-dejavu-ttf glu
 
 name=crawl-tiles
 version=0.12.0
@@ -10,10 +10,11 @@ release=1
 source=(http://sourceforge.net/projects/crawl-ref/files/Stone%20Soup/$version/stone_soup-${version}.tar.xz)
 
 build () {
-    cd "stone_soup-$version/source"
-    sed -i 's|bin_prefix    := bin|bin_prefix    := usr/bin|' Makefile
-    sed -i 's/INSTALL_UGRP := games:games/INSTALL_UGRP := root:root/' Makefile
-    sed -i 's|MCHMOD := 2755|MCHMOD := 755|' Makefile
+    cd stone_soup-$version/source
+    sed -i Makefile \
+        -e 's|bin_prefix    := bin|bin_prefix    := usr/bin|' \
+	-e 's/INSTALL_UGRP := games:games/INSTALL_UGRP := root:root/' \
+	-e 's|MCHMOD := 2755|MCHMOD := 755|'
 
     make DESTDIR=$PKG \
 	 DATADIR=/usr/share/$name \

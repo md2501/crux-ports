@@ -9,7 +9,7 @@ release=2
 source=(http://ftp.nluug.nl/pub/editors/$name/$name-$version.src.tar.gz)
 
 build () {
-    cd "Ted-$version"
+    cd Ted-$version
     make -j1
     make package
 
