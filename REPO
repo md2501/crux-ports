@@ -15,6 +15,7 @@ d:mksh
 d:tabbed
 d:gsimplecal
 d:mpv
+d:libass
 d:slock
 d:libpaper
 d:wmname
@@ -62,7 +63,7 @@ f:4048cc1c449a829e886072266c16450b:ted/.md5sum
 f:c29fd7d271391a3ccf09221b2f63093f:ted/Pkgfile
 f:e6d8ef571dbec3d83830ecab87307017:sxhkd/.footprint
 f:5dd514866d871a6e3f73dc91b1b6ab76:sxhkd/.md5sum
-f:c6b4e8ffce75d0173db48e1edd1ae8b6:sxhkd/Pkgfile
+f:33150d1637dbd8d4ee7be4db1261b603:sxhkd/Pkgfile
 f:59d7137f24afdd0cf95ae13b2270bb4a:abcde/.footprint
 f:f8fc81b165dd5da6ecd982625cb92c7c:abcde/.md5sum
 f:45213e1a59add264d91580be94a8eb0a:abcde/Pkgfile
@@ -91,6 +92,9 @@ f:4adcb88324499b9306649cd82062afcb:gsimplecal/Pkgfile
 f:d9c01b760f4c8b6458f3d7634a1b990e:mpv/.footprint
 f:9545e569ef6429150c4e4e5a87210ae8:mpv/.md5sum
 f:c715009c8e6d989bf4d33529c3005576:mpv/Pkgfile
+f:c9230cd355af8b7c37b1c66f1cbcdc28:libass/.footprint
+f:9c6771c9839621ace438adb67e5c4860:libass/.md5sum
+f:71491f268614b0c7026079ea086b2d99:libass/Pkgfile
 f:c612b3505dd09abd7d7438341488a46c:slock/.footprint
 f:7c86caea9a4a670d23dd78b552db73cf:slock/.md5sum
 f:13282548b21c9c1a5e3f9a8de319b89d:slock/Pkgfile
@@ -136,8 +140,8 @@ f:15c2c911658e2e6085e4c4fa7a7b01c1:surf/config.h
 f:02bf8524a69235374a79e3b423a876de:surf/README
 f:35faaaadaf951b701971aed6f8a78da5:surf/Pkgfile
 f:6bdc0384917de3ae165735c506e0519e:pmount/.footprint
-f:667de1408288fd28c785002c955c6005:pmount/.md5sum
-f:2c2a258ffe61880d3d8c2e752ab87d24:pmount/Pkgfile
+f:3413081cc7f7948e26bda50c085744e0:pmount/.md5sum
+f:a9377a31a26d9b379b07c7e55fe7b411:pmount/Pkgfile
 f:9ffa0f179034afc1969084049a920448:spacefm/.footprint
 f:61b7c0db8bc88d353ed69024dba2d068:spacefm/.md5sum
 f:b4e0cc0d9f52e5aeb5ad1fe8682f878b:spacefm/post-install
