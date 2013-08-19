@@ -28,6 +28,7 @@ d:cd-discid
 d:curseofwar
 d:lsw
 d:surf
+d:pmount
 d:spacefm
 d:crawl
 d:dvtm
@@ -138,6 +139,9 @@ f:50ece536fbd2bad37348cee1a3b88b8b:surf/.md5sum
 f:15c2c911658e2e6085e4c4fa7a7b01c1:surf/config.h
 f:02bf8524a69235374a79e3b423a876de:surf/README
 f:35faaaadaf951b701971aed6f8a78da5:surf/Pkgfile
+f:6bdc0384917de3ae165735c506e0519e:pmount/.footprint
+f:667de1408288fd28c785002c955c6005:pmount/.md5sum
+f:a4c94537d19f078241e5373216b8dfe9:pmount/Pkgfile
 f:9ffa0f179034afc1969084049a920448:spacefm/.footprint
 f:61b7c0db8bc88d353ed69024dba2d068:spacefm/.md5sum
 f:b4e0cc0d9f52e5aeb5ad1fe8682f878b:spacefm/post-install
