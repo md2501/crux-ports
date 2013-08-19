@@ -19,6 +19,7 @@ d:slock
 d:libpaper
 d:wmname
 d:libquvi
+d:curseofwar-sdl
 d:quvi
 d:dtach
 d:runit
@@ -102,6 +103,9 @@ f:5f914fee50300b9907788077294a4d65:wmname/Pkgfile
 f:3a41f2bdb96e93714081fa8dabd8daa5:libquvi/.footprint
 f:ea9e8123784faa6b10aaa0b0b30962e6:libquvi/.md5sum
 f:932c26f541113ed7f064392fa47e6206:libquvi/Pkgfile
+f:98a6f5885ddee89cdb2131f81319ec4b:curseofwar-sdl/.footprint
+f:84a63a8ee7746e169b54819970f9df4e:curseofwar-sdl/.md5sum
+f:a64d53bd4c08e2747419e9a057e293a1:curseofwar-sdl/Pkgfile
 f:5652a26bfd099c2bba7d8034783826bd:quvi/.footprint
 f:054944cb4264f460a75e52eedbf05f7f:quvi/.md5sum
 f:f9a6d00993443fcb40cf179c01ceb910:quvi/Pkgfile
