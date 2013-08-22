@@ -5,9 +5,9 @@
 # Depends on:
 
 name=mksh
-version=47
+version=R48b
 release=1
-source=(http://www.mirbsd.org/MirOS/dist/mir/mksh/$name-R$version.tgz)
+source=(http://www.mirbsd.org/MirOS/dist/mir/mksh/$name-$version.tgz)
 
 build() {
   cd $name

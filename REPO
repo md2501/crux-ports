@@ -43,9 +43,9 @@ f:4a05674ed54aba5de52194955e3072f5:kwakd/.md5sum
 f:e1ce068ebc3dee200f27fac6a413f7c7:kwakd/kwakd
 f:c416d9163e2ccd856db75371c045f3ea:kwakd/Pkgfile
 f:e2ce789e0a86ee5428f8565527414a20:mksh/.footprint
-f:2c08385cc95eb456053e356d7a46ff47:mksh/.md5sum
+f:480eac5e3f80026b863007bbf384add5:mksh/.md5sum
 f:3f5085cc9a25a7bfd28d5511e960372d:mksh/post-install
-f:d9b330718359384b5d1f255e82fb2e60:mksh/Pkgfile
+f:fa7f9dcdc790cfedf0ad2c8b52884e8a:mksh/Pkgfile
 f:e34ec2e71041960d8ce00b9fab4ea0da:gsimplecal/.footprint
 f:54915f1a89e9ef56480922adf87d4c3a:gsimplecal/.md5sum
 f:07ca10535f031d7092779a09d7237625:gsimplecal/Pkgfile
