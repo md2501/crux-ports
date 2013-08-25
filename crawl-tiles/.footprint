@@ -280,7 +280,7 @@ drwxr-xr-x	root/root	usr/share/crawl-tiles/dat/tiles/
 -rw-r--r--	root/root	usr/share/crawl-tiles/dat/tiles/title_firemage.png
 -rw-r--r--	root/root	usr/share/crawl-tiles/dat/tiles/title_omndra_zot_demon.png
 -rw-r--r--	root/root	usr/share/crawl-tiles/dat/tiles/title_pooryurik_knight.png
--rwxr-xr-x	root/root	usr/share/crawl-tiles/dat/tiles/title_psiweapon_kiku.png
+-rw-r--r--	root/root	usr/share/crawl-tiles/dat/tiles/title_psiweapon_kiku.png
 -rw-r--r--	root/root	usr/share/crawl-tiles/dat/tiles/title_shadyamish_octm.png
 -rw-r--r--	root/root	usr/share/crawl-tiles/dat/tiles/title_white_noise_entering_the_dungeon.png
 -rw-r--r--	root/root	usr/share/crawl-tiles/dat/tiles/title_white_noise_grabbing_the_orb.png
