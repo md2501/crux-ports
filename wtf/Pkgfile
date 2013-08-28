@@ -7,8 +7,8 @@ name=wtf
 version=20071004
 release=1
 source=("http://www.mu.org/~mux/$name/$name-$version.tar.gz"
-        "https://raw.github.com/keenerd/wtf/ae2635e96bc47b8df673e2073659825a26a001e2/acronyms.computing"
-	"https://www.mirbsd.org/acronyms"
+        "http://raw.github.com/Doomicide/crux-ports/master/distfiles/acronyms"
+        "http://raw.github.com/Doomicide/crux-ports/master/distfiles/acronyms.computing"
 	$name-$version-prt-get.patch
 	$name-$version-man.patch)
 

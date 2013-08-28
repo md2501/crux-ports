@@ -53,10 +53,10 @@ f:07ca10535f031d7092779a09d7237625:gsimplecal/Pkgfile
 f:aa39db724ffd69f89ff5601a4393c105:libpaper/.footprint
 f:e9295dcf4313d407059f3d7a48b5f42c:libpaper/.md5sum
 f:84ad3caf1a32c3310de752e6aca5bb76:libpaper/Pkgfile
-f:4c0a51ade6a486188c732718815923f2:wtf/.footprint
+f:937667df7c63ad8edcdb50d3fd80a957:wtf/.footprint
 f:1a636af838023138a208fd36a758613d:wtf/.md5sum
 f:665de096a755bea9b53a22a74d80dbb0:wtf/wtf-20071004-prt-get.patch
-f:91300cdc82522b568f6f3a4229e5f269:wtf/Pkgfile
+f:b291f4c1dd9f50579d678ac473291485:wtf/Pkgfile
 f:e56db8cbd9c8bc38551739b4fbcd5a67:wtf/wtf-20071004-man.patch
 f:9a5a46c6f660a471443b2c3dbf96921c:dtach/.footprint
 f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
