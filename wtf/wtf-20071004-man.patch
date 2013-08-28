@@ -1,0 +1,20 @@
+--- wtf-20071004/wtf.6	2007-10-04 11:44:38.000000000 +0200
++++ wtf-20071004.p/wtf.6	2013-08-28 09:22:14.225226842 +0200
+@@ -23,7 +23,7 @@ If the acronym is not in any of the acro
+ will check to see if the acronym is known by the
+ .Xr whatis 1
+ or the
+-.Xr pkg_info 1
++.Xr prt-get 8
+ commands.
+ .Pp
+ If
+@@ -58,7 +58,7 @@ default acronym database.
+ computer-related acronym database.
+ .El
+ .Sh SEE ALSO
+-.Xr pkg_info 1 ,
++.Xr prt-get 8 ,
+ .Xr whatis 1
+ .Sh HISTORY
+ .Nm

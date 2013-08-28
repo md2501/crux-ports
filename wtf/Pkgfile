@@ -1,0 +1,27 @@
+# Description: Acronym dictionary
+# URL:         http://www.mu.org/~mux/wtf/
+# Maintainer:  Maximilian Dietrich, dxm at openmailbox dot org
+# Depends on:  
+
+name=wtf
+version=20071004
+release=1
+source=("http://www.mu.org/~mux/$name/$name-$version.tar.gz"
+        "https://raw.github.com/keenerd/wtf/ae2635e96bc47b8df673e2073659825a26a001e2/acronyms.computing"
+	"https://www.mirbsd.org/acronyms"
+	$name-$version-prt-get.patch
+	$name-$version-man.patch)
+
+build () {
+    cd $name-$version
+    patch -p1 < $SRC/$name-$version-prt-get.patch
+    patch -p1 < $SRC/$name-$version-man.patch
+
+    mv acronyms.comp acronyms.comp.tmp
+    cat $SRC/acronyms.computing acronyms.comp.tmp | sort -u > acronyms.comp
+
+    install -D -m644 $name.6 "$PKG/usr/man/man6/$name.6"
+    install -D -m755 $name   "$PKG/usr/bin/$name"
+    install -d "$PKG/usr/share/misc/"
+    install -m644 $SRC/acronyms acronyms.comp "$PKG/usr/share/misc/"
+}
