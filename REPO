@@ -37,8 +37,8 @@ f:e6d8ef571dbec3d83830ecab87307017:sxhkd/.footprint
 f:fc7e1081a4b05b1702b73820665bf850:sxhkd/.md5sum
 f:a9db96a740fa224a2483516b8ea3c635:sxhkd/Pkgfile
 f:98a3875c57123f9a066aa5c7ae2ee77b:crawl-tiles/.footprint
-f:92ab40902fa133d8d3ee196e5222c2e5:crawl-tiles/.md5sum
-f:a2459adef9ec77a01607a82ee889298f:crawl-tiles/Pkgfile
+f:a80f1672df82143505a92a4e70773a4b:crawl-tiles/.md5sum
+f:baba4d8f97806ca7afc332058aa1c72e:crawl-tiles/Pkgfile
 f:1bfe2443285cd4e56ee72d803eb3756c:kwakd/.footprint
 f:4a05674ed54aba5de52194955e3072f5:kwakd/.md5sum
 f:e1ce068ebc3dee200f27fac6a413f7c7:kwakd/kwakd
@@ -79,8 +79,8 @@ f:61b7c0db8bc88d353ed69024dba2d068:spacefm/.md5sum
 f:b4e0cc0d9f52e5aeb5ad1fe8682f878b:spacefm/post-install
 f:9515b9921246b16385964e700f05436d:spacefm/Pkgfile
 f:94b6821a35b7d653e7a6dab294436e3c:crawl/.footprint
-f:92ab40902fa133d8d3ee196e5222c2e5:crawl/.md5sum
-f:9b25719474c160b6becd594e4c1c6f10:crawl/Pkgfile
+f:a80f1672df82143505a92a4e70773a4b:crawl/.md5sum
+f:7f6998df1253bf1a6bfc3a4e53e3abaa:crawl/Pkgfile
 f:8af90118f55987e429926e27379489be:hostsblock/.footprint
 f:c54e7b65889461505844ec7a9445a421:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
