@@ -4,9 +4,9 @@
 # Depends on:  gtk udev shared-mime-info desktop-file-utils xorg-libxdamage
 
 name=spacefm
-version=0.8.7
+version=0.9.0
 release=1
-source=(https://raw.github.com/IgnorantGuru/$name/master/packages/$version/$name-$version.tar.xz)
+source=(https://github.com/IgnorantGuru/spacefm/archive/$version.tar.gz)
 
 build () {
     cd $name-$version

@@ -57,9 +57,9 @@ f:6bdc0384917de3ae165735c506e0519e:pmount/.footprint
 f:667de1408288fd28c785002c955c6005:pmount/.md5sum
 f:a4c94537d19f078241e5373216b8dfe9:pmount/Pkgfile
 f:9ffa0f179034afc1969084049a920448:spacefm/.footprint
-f:61b7c0db8bc88d353ed69024dba2d068:spacefm/.md5sum
+f:c2e208f53a36805605f14e855f895a3c:spacefm/.md5sum
 f:b4e0cc0d9f52e5aeb5ad1fe8682f878b:spacefm/post-install
-f:9515b9921246b16385964e700f05436d:spacefm/Pkgfile
+f:7b1df3aa3c40ce7b6748e73c902543f8:spacefm/Pkgfile
 f:8af90118f55987e429926e27379489be:hostsblock/.footprint
 f:c54e7b65889461505844ec7a9445a421:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
