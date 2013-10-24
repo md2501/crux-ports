@@ -10,7 +10,6 @@ d:dtach
 d:runit
 d:lsw
 d:pmount
-d:spacefm
 d:hostsblock
 f:0e4ac3f4ba8450105a553e1b2f95457f:runit-services/.footprint
 f:adab86fac8079f6538271ae4ca70d6cf:runit-services/.md5sum
@@ -56,10 +55,6 @@ f:8d5e0eb4d5ae24c482eac5cf2104b89b:lsw/Pkgfile
 f:6bdc0384917de3ae165735c506e0519e:pmount/.footprint
 f:667de1408288fd28c785002c955c6005:pmount/.md5sum
 f:a4c94537d19f078241e5373216b8dfe9:pmount/Pkgfile
-f:9ffa0f179034afc1969084049a920448:spacefm/.footprint
-f:c2e208f53a36805605f14e855f895a3c:spacefm/.md5sum
-f:b4e0cc0d9f52e5aeb5ad1fe8682f878b:spacefm/post-install
-f:7b1df3aa3c40ce7b6748e73c902543f8:spacefm/Pkgfile
 f:8af90118f55987e429926e27379489be:hostsblock/.footprint
 f:c54e7b65889461505844ec7a9445a421:hostsblock/.md5sum
 f:2dd7546311634d7da2bb127b571600cf:hostsblock/README
